@@ -1,0 +1,11 @@
+[
+  {
+    "event_id" :"EVENT0001",
+    "event_name" : "Cleaning Beach Day",
+    "event_pic" : "url",
+    "event_date" : "25/08/2019",
+    "event_hour" : "10am",
+    "event_venue" : "Barceloneta",
+    "event_details" : "Join us as we get together on our monthly clean up of Barceloneta beach. We want to keep our beach beautiful and special for locals and visitors to this beautiful part of town! Come for a few hours to clean, meet new friends, and enjoy some refreshments afterwards. Note: Wear comfortable clothes and sandals. See you there!"
+  }
+]
