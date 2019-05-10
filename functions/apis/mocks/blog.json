@@ -1,0 +1,28 @@
+[{
+    "comment" : "text",
+    "author" : "name",
+    "blog_id" : "primary_key",
+    "blog_title" : "The Palm Oil Effect",
+    "blog_overview": "Palm oil has been credited with providing protection against heart disease. Although some study results have been mixed, this oil generally appears to have harmful...",
+    "publish_text" : "text",
+    "publish_date" : "30/04/2019",
+    "publish_time" : "10:35:00",
+    "publish_timezone" : "GMT",
+    "blog_picture": "url",
+    "blog_background_picture": "url",
+    "user_id": "USER1234"
+  },
+  {
+    "comment" : "text",
+    "author" : "name",
+    "blog_id" : "primary_key",
+    "blog_title" : "India & China- Turning Earth Greener",
+    "blog_overview": " A new study shows that China and India—the world’s most populous countries—are leading the increase in greening on land. The effect comes mostly from ambitious.",
+    "publish_text" : "text",
+    "publish_date" : "04/10/2019",
+    "publish_time" : "10:35:00",
+    "publish_timezone" : "GMT",
+    "blog_picture": "url",
+    "blog_background_picture": "url",
+    "user_id": "USER1234"
+  }]

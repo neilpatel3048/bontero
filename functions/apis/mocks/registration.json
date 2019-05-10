@@ -1,0 +1,23 @@
+[{
+    "email": "neil.patel@bts.tech",
+    "password" : "*******",
+    "photo?" : "https://barcelonatechnologyschool.com/wp-content/uploads/2019/03/Gael.jpg",
+    "username?" : "neilpatel30",
+    "user_card1" : "",
+    "sign_out" : "",
+    
+   
+         "card1_number" : "0234 1034 1204 1234",
+        "card1_security" : "001",
+        "card1_date_expire" : "12/10",
+  
+            "shipping_details" : "user_shipping_details1",
+            "shipping_street1" : "Arc del teatre",
+            "shipping_building" : "16",
+            "shipping_Appt" : "2",
+            "shipping_city" : "Barcelona",
+            "shipping_zip" : "08000",
+            "shipping_country" : "Spain",
+            "phone_number" : "+34 123 123 0000"
+    
+  }]
