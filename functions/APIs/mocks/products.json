@@ -1,0 +1,82 @@
+[
+    {
+    "product_id" :"P0001",
+    "product_name" : "Avocado",
+    "product_picture" : "https://drive.google.com/file/d/1l7w_T27sPTtejhKOs458i-9hDZ5rTlka/view?usp=sharing",
+    "product_price" : "2,00",
+    "product_Category" : ["fresh produce", "fruit", "Organic Produce"],
+    "category_id": "CAT1234"
+  },
+
+{
+    "product_id" :"P0002",
+    "product_name" : "Orange",
+    "product_picture" : "https://drive.google.com/file/d/1l7w_T27sPTtejhKOs458i-9hDZ5rTlka/view?usp=sharing",
+    "product_price" : "1,00",
+    "product_Category" : ["fresh", "fruit", "Organic Produce"],
+    "category_id": "CAT1234"
+  },
+
+{
+    "product_id" :"P0003",
+    "product_name" : " Bamboo Toothbrush",
+    "product_picture" : "https://drive.google.com/file/d/1AmsQbeiYhMK_0L2-VG0wRP3_H1JdXzcK/view?usp=sharing",
+    "product_price" : "1,00",
+    "product_Category" : ["Bathroom", "Toothbrushes", "Home and Beauty"],
+    "category_id": "CAT003"
+  },
+
+{
+    "product_id" :"P0004",
+    "product_name" : "Shampoo",
+    "product_picture" : "https://drive.google.com/file/d/1GrwQeDznSy4_itpNycbvEDK6fkvc0H1p/view?usp=sharing",
+    "product_price" : "4,00",
+    "product_Category" : ["Bathroom", "Shampoo", "Home and Beauty"],
+    "category_id": "CAT001"
+},
+
+{
+    "product_id" :"P0005",
+    "product_name" : "Almonds",
+    "product_picture" : "https://drive.google.com/file/d/1oENO9SOmcZOsG5C1EfogJG0gsQ0QfI2s/view?usp=sharing",
+    "product_price" : "5,00",
+    "product_Category" : ["Dry fruits", "almonds spain", "Dry goods"],
+    "category_id": "CAT001"
+  },
+
+{
+    "product_id" : "P0006",
+    "product_name" : "Onion",
+    "product_picture" : "url",
+    "product_price" : "0,75",
+    "product_Category" : ["Fresh Produce", "Organic Produce"],
+    "category_id": "CAT001"
+},
+
+{
+    "product_id" : "P0007",
+    "product_name" : "String Bag",
+    "product_picture" : "https://drive.google.com/file/d/1lh_8W8tMbFG40NpNbGqe3pGy_SiihnBC/view?usp=sharing",
+    "product_price" : "0,75",
+    "product_Category" : ["Fresh Produce", "Organic Produce"],
+    "category_id": "CAT004"
+},
+
+{
+    "product_id" : "P0008",
+    "product_name" : "Dark Chocolate",
+    "product_picture" : "url",
+    "product_price" : "3,05",
+    "product_Category" : ["Sweets", "Chocolates"],
+    "category_id": "CAT005"
+},
+
+{
+    "product_id" : "P0009",
+    "product_name" : "Milk Chocolate",
+    "product_picture" : "url",
+    "product_price" : "2,00",
+    "product_Category" : ["Sweets", "Chocolates"],
+    "category_id": "CAT005"
+}
+]

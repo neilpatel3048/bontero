@@ -1,0 +1,15 @@
+[
+    { "product_id" : "P0001",
+    "descrption" : "Grown in the heartland of Spain, free from pesticides and other harmful chemicals. The Hass avocado contains many nutrients and is considered one of the greatest superfoods on Earth. It’s a perfect snack or addition to a meal that will keep your body happy and healthy. Produced in: Malaga, Spain by La Nucia Farms",
+    "footprint" : {
+      "water" : "icon",
+      "water_text" : "120 liters consumed by avocado",
+      "plastic" : "icon",
+      "plastic_text" : "No plastic was involved in the process",
+      "pollution_transport" : "icon",
+      "pollution_text" : "The tree was 500miles from you",
+      "pesticides" : "icon",
+      "pesticides_text" : "No pesticides have been used in the process" },
+     "Producers" : "La Nucia Farms is a family-owned and run business based in outskirts of Malaga. La Nucia Farms is committed to producing the finest possible fresh vegetables and fruits which has been grown using the most sustainable methods. They are committed to operate in the most environmentally-friendly way possible. Their approach so far has produced fruits and vegetables that are fresher, tastier, and more nutritious!"
+  }
+]

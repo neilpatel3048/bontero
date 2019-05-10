@@ -1,0 +1,193 @@
+{
+"blog":[
+    {
+    "comment" : "text",
+    "author" : "name",
+    "blog_id" : "primary_key",
+    "blog_title" : "The Palm Oil Effect",
+    "blog_overview": "Palm oil has been credited with providing protection against heart disease. Although some study results have been mixed, this oil generally appears to have harmful...",
+    "publish_text" : "text",
+    "publish_date" : "30/04/2019",
+    "publish_time" : "10:35:00",
+    "publish_timezone" : "GMT",
+    "blog_picture": "url",
+    "blog_background_picture": "url",
+    "user_id": "USER1234"
+  },{
+    "comment" : "text",
+    "author" : "name",
+    "blog_id" : "primary_key",
+    "blog_title" : "India & China- Turning Earth Greener",
+    "blog_overview": " A new study shows that China and India—the world’s most populous countries—are leading the increase in greening on land. The effect comes mostly from ambitious.",
+    "publish_text" : "text",
+    "publish_date" : "04/10/2019",
+    "publish_time" : "10:35:00",
+    "publish_timezone" : "GMT",
+    "blog_picture": "url",
+    "blog_background_picture": "url",
+    "user_id": "USER1234"
+  }],  
+"categories":[
+    {
+    "category_id": "CAT001",
+    "category_photo": "url",
+    "category_name": "Organic Produce"
+  },
+  
+  {
+    "category_id": "CAT002",
+    "category_photo": "url",
+    "category_name": "Drinks and Dairy"
+  },
+  
+  {
+    "category_id": "CAT003",
+    "category_photo": "url",
+    "category_name": "Dry Goods"
+  },
+  
+  {
+    "category_id": "CAT004",
+    "category_photo": "url",
+    "category_name": "Home and Beauty"
+  },
+  
+  {
+    "category_id": "CAT005",
+    "category_photo": "url",
+    "category_name": "Sweets"
+  }
+],
+"events":[{
+    "event_id" :"EVENT0001",
+    "event_name" : "Cleaning Beach Day",
+    "event_pic" : "url",
+    "event_date" : "25/08/2019",
+    "event_hour" : "10am",
+    "event_venue" : "Barceloneta",
+    "event_details" : "Join us as we get together on our monthly clean up of Barceloneta beach. We want to keep our beach beautiful and special for locals and visitors to this beautiful part of town! Come for a few hours to clean, meet new friends, and enjoy some refreshments afterwards. Note: Wear comfortable clothes and sandals. See you there!"
+  }],
+"product_detail":[
+  { "product_id" : "P0001",
+  "descrption" : "Grown in the heartland of Spain, free from pesticides and other harmful chemicals. The Hass avocado contains many nutrients and is considered one of the greatest superfoods on Earth. It’s a perfect snack or addition to a meal that will keep your body happy and healthy. Produced in: Malaga, Spain by La Nucia Farms",
+  "footprint" : {
+    "water" : "icon",
+    "water_text" : "120 liters consumed by avocado",
+    "plastic" : "icon",
+    "plastic_text" : "No plastic was involved in the process",
+    "pollution_transport" : "icon",
+    "pollution_text" : "The tree was 500miles from you",
+    "pesticides" : "icon",
+    "pesticides_text" : "No pesticides have been used in the process" },
+   "Producers" : "La Nucia Farms is a family-owned and run business based in outskirts of Malaga. La Nucia Farms is committed to producing the finest possible fresh vegetables and fruits which has been grown using the most sustainable methods. They are committed to operate in the most environmentally-friendly way possible. Their approach so far has produced fruits and vegetables that are fresher, tastier, and more nutritious!"
+}
+],
+"products":[
+    {
+    "product_id" :"P0001",
+    "product_name" : "Avocado",
+    "product_picture" : "https://drive.google.com/file/d/1l7w_T27sPTtejhKOs458i-9hDZ5rTlka/view?usp=sharing",
+    "product_price" : "2,00",
+    "product_Category" : ["fresh produce", "fruit", "Organic Produce"],
+    "category_id": "CAT1234"
+  },
+
+{
+    "product_id" :"P0002",
+    "product_name" : "Orange",
+    "product_picture" : "https://drive.google.com/file/d/1l7w_T27sPTtejhKOs458i-9hDZ5rTlka/view?usp=sharing",
+    "product_price" : "1,00",
+    "product_Category" : ["fresh", "fruit", "Organic Produce"],
+    "category_id": "CAT1234"
+  },
+
+{
+    "product_id" :"P0003",
+    "product_name" : " Bamboo Toothbrush",
+    "product_picture" : "https://drive.google.com/file/d/1AmsQbeiYhMK_0L2-VG0wRP3_H1JdXzcK/view?usp=sharing",
+    "product_price" : "1,00",
+    "product_Category" : ["Bathroom", "Toothbrushes", "Home and Beauty"],
+    "category_id": "CAT003"
+  },
+
+{
+    "product_id" :"P0004",
+    "product_name" : "Shampoo",
+    "product_picture" : "https://drive.google.com/file/d/1GrwQeDznSy4_itpNycbvEDK6fkvc0H1p/view?usp=sharing",
+    "product_price" : "4,00",
+    "product_Category" : ["Bathroom", "Shampoo", "Home and Beauty"],
+    "category_id": "CAT001"
+},
+
+{
+    "product_id" :"P0005",
+    "product_name" : "Almonds",
+    "product_picture" : "https://drive.google.com/file/d/1oENO9SOmcZOsG5C1EfogJG0gsQ0QfI2s/view?usp=sharing",
+    "product_price" : "5,00",
+    "product_Category" : ["Dry fruits", "almonds spain", "Dry goods"],
+    "category_id": "CAT001"
+  },
+
+{
+    "product_id" : "P0006",
+    "product_name" : "Onion",
+    "product_picture" : "url",
+    "product_price" : "0,75",
+    "product_Category" : ["Fresh Produce", "Organic Produce"],
+    "category_id": "CAT001"
+},
+
+{
+    "product_id" : "P0007",
+    "product_name" : "String Bag",
+    "product_picture" : "https://drive.google.com/file/d/1lh_8W8tMbFG40NpNbGqe3pGy_SiihnBC/view?usp=sharing",
+    "product_price" : "0,75",
+    "product_Category" : ["Fresh Produce", "Organic Produce"],
+    "category_id": "CAT004"
+},
+
+{
+    "product_id" : "P0008",
+    "product_name" : "Dark Chocolate",
+    "product_picture" : "url",
+    "product_price" : "3,05",
+    "product_Category" : ["Sweets", "Chocolates"],
+    "category_id": "CAT005"
+},
+
+{
+    "product_id" : "P0009",
+    "product_name" : "Milk Chocolate",
+    "product_picture" : "url",
+    "product_price" : "2,00",
+    "product_Category" : ["Sweets", "Chocolates"],
+    "category_id": "CAT005"
+}
+],
+"registration":[
+    {
+    "email": "neil.patel@bts.tech",
+    "password" : "*******",
+    "photo?" : "https://barcelonatechnologyschool.com/wp-content/uploads/2019/03/Gael.jpg",
+    "username?" : "neilpatel30",
+    "user_card1" : "",
+    "sign_out" : "",
+    
+   
+         "card1_number" : "0234 1034 1204 1234",
+        "card1_security" : "001",
+        "card1_date_expire" : "12/10",
+  
+            "shipping_details" : "user_shipping_details1",
+            "shipping_street1" : "Arc del teatre",
+            "shipping_building" : "16",
+            "shipping_Appt" : "2",
+            "shipping_city" : "Barcelona",
+            "shipping_zip" : "08000",
+            "shipping_country" : "Spain",
+            "phone_number" : "+34 123 123 0000"
+    
+  }
+]
+
+}
