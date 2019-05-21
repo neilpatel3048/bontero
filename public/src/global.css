@@ -1,20 +1,16 @@
-
-
-body
+ion-app
 {
-height: 80%;
+  height: 100%;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+ion-footer {
+
   width: 100%;
   background-color : #ffca36;
   vertical-align : bottom;
   color : black;
   text-align: center;
-  
+  padding : 0.2em;
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
@@ -119,7 +115,7 @@ font-family: Avenir;
 font-style: normal;
 font-weight: 500;
 
- font-size: 5vw; 
+ font-size: 16px; 
 line-height: 22px;
 
 }
@@ -307,7 +303,6 @@ color: #3D3D3D;
 }
 
 
-
 :root {
   --ion-color-primary: #ffca36;
   --ion-color-primary-rgb: 56,128,255;
@@ -330,7 +325,7 @@ color: #3D3D3D;
   --ion-color-tertiary-shade: #000000;
   --ion-color-tertiary-tint: #1a1a1a;
 
-  --ion-color-success: #009E71;
+  --ion-color-success: ##009E71
   --ion-color-success-rgb: 16,220,96;
   --ion-color-success-contrast: #ffffff;
   --ion-color-success-contrast-rgb: 255,255,255;
