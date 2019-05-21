@@ -1,3 +1,5 @@
+
+
 body
 {
 height: 80%;
@@ -29,7 +31,7 @@ ion-title {
 
   top: 0;
   left: 0;
-  padding: 0 90px 1px;
+  padding:  0.2px;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -44,6 +46,7 @@ ion-title {
 
 ion-grid
 {
+  padding-top : 16px;
   padding-left : 16px;
   padding-right : 16px;
  padding-bottom : 16px;
@@ -51,22 +54,11 @@ ion-grid
 
 .cardpadding
 {
-  padding : 2em 4em;
+  padding-top : 0.2em;
+  padding-bottom : 0.5em;
 }
 
-.columnleft
-{
-    float: left;
-   width: 40%;
-  padding: 5px;
-}
 
-.columnright
-{
-    float: right;
-   width: 40%;
-  padding: 5px;
-}
 
 /*.row::after {
   content: "";
@@ -97,7 +89,7 @@ bottom: 74.11%;
 
 .orgheader
 {
-  font-size: 2.3em;
+  font-size: 1.4em;
 }
 
 .sort
@@ -125,7 +117,7 @@ top: calc(50% - 22px/2 + 93.5px);
 
 font-family: Avenir;
 font-style: normal;
-font-weight: 800;
+font-weight: 500;
 
  font-size: 5vw; 
 line-height: 22px;
