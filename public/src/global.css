@@ -56,11 +56,7 @@ ion-grid
 
 
 
-/*.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}*/
+
 
 row
 {
@@ -127,34 +123,227 @@ line-height: 22px;
   
   top: calc(50% - 22px/2 + 119.5px);
  
+}  
+ion-title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 90px 1px;
+  width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  
+  /*.large{
+    ion-button
+  }
+  ion-button
+  {
+    --background: #ffca36;
+    --border-radius: 2px;
+  } */
+  
+  .categories-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/f9b7eb12-98b1-4abb-9ba8-2377cb66de10%2Fasian-food-beans-cuisine-618491.jpg?1557846940116");
+    height: 25%;
+    left: 0px;
+    right: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  
+  .events-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/bontero-50f6a.appspot.com/o/events_painting.jpg?alt=media&token=78c1af56-8ca9-4e5f-bcdf-3a018bc69cba");
+    height: 25%;
+    left: 0px;
+    right: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  
+  
+  .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/62308f07-7e5c-4e0b-b423-e20d18091413%2FHome%20Header.jpg?1557846419110");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Avenir;
+  }
+  
+  .container1{
+    margin-top: 200px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .imagesize{
+    left: 20%;
+    width: 30%;
+    height: 30%;
+  }
+  
+  .banner{
+    font-family:Avenir;
+    padding-top: 36px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+  }
+  
+  .socialmedia {
+    font-size: 48px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  
+  .socialgroup{
+    text-align: center;
+  }
+  
+  .heart-button {
+    border: none;
+    color: #F57D3F;
+    padding: 16px 16px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.3;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .heart-button:hover {opacity: 1}
+  /*.heart-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+    color: #F57D3F;
+  } */
+  
+  .events{
+    background-color: #FFDD80;
+    font-family:Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .eventstext{
+    background-color: #FFDD80;
+    margin-top: -50px;
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+/* Gael's code ends here 14/05/2019 */
+  p {
+    font-family:Avenir;
+    font-weight:normal;
+    text-align: center;
+  
+  }
+  
+  /* Container holding the image and the text */
+  .container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      background-color: #009E71;
+      color: white;
+      padding-left: 15px;
+      padding-right: 0px;
+      height: 54px;
+      width: 100%;
+      font-family: Avenir;
+    
+    
+      /* text-align: left; */
+      /* padding-bottom: 3px; */
+    
+  }
+  .productname {
+  height: 42px;
+  left: 0%;
+  right: 41.03%;
+  top: calc(50% - 22px/2 + 93.5px);
   font-family: Avenir;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 5vh;
   line-height: 22px;
-
-  text-decoration-line: line-through;
-
-  color: #3D3D3D;
-
-}
-
-.lastprice
-{
-
-
- height: 22px;
+  }
+  
+  .imagesize{
+  left: 20%;
+  width: 30%;
+  height: 30%;
+  
+  }
+  
+  .cancelprice {
+  height: 22px;
   left: 0%;
   right: 73.72%;
   top: calc(50% - 22px/2 + 119.5px);
-
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  
+  text-decoration-line: line-through;
+  color: #3D3D3D;
+}
 
+
+  
+  .lastprice{
+  height: 22px;
+  left: 0%;
+  right: 73.72%;
+  top: calc(50% - 22px/2 + 119.5px);
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 color: #D51236;
 }
 
@@ -367,3 +556,45 @@ color: #3D3D3D;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+  
+  .cardpadding{
+  padding : 2em;
+  
+  }
+  
+  h2{
+  font-family:Avenir;
+  font-weight:normal;
+  text-align: center;
+    
+  }
+  
+  .connectwithus{
+  text-align: center;
+  
+  }
+  
+  .socialmedia{
+  text-align: center;
+  width: 360px;
+  height: 112px;
+  left: 0px;
+  top: 2061px;
+  
+  }
+  
+  
+  h4{
+  font-family:Avenir;
+  font-weight:normal;
+  
+  }
+  
+  .arrow-dropright{
+  padding-right: 100px;
+  color:white;
+  
+  
+  }
+  
