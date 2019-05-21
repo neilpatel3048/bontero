@@ -72,14 +72,44 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    
-    
     font-family: Circular Std;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 38px;
   }
+  
+  /*.large{
+    ion-button
+  }
+  ion-button
+  {
+    --background: #ffca36;
+    --border-radius: 2px;
+  } */
+  
+  .categories-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/f9b7eb12-98b1-4abb-9ba8-2377cb66de10%2Fasian-food-beans-cuisine-618491.jpg?1557846940116");
+    height: 25%;
+    left: 0px;
+    right: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  
+  .events-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/bontero-50f6a.appspot.com/o/events_painting.jpg?alt=media&token=78c1af56-8ca9-4e5f-bcdf-3a018bc69cba");
+    height: 25%;
+    left: 0px;
+    right: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  
   
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -108,6 +138,77 @@
     font-family: Avenir;
   }
   
+  .container1{
+    margin-top: 200px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .imagesize{
+    left: 20%;
+    width: 30%;
+    height: 30%;
+  }
+  
+  .banner{
+    font-family:Avenir;
+    padding-top: 36px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+  }
+  
+  .socialmedia {
+    font-size: 48px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  
+  .socialgroup{
+    text-align: center;
+  }
+  
+  .heart-button {
+    border: none;
+    color: #F57D3F;
+    padding: 16px 16px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.3;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .heart-button:hover {opacity: 1}
+  /*.heart-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+    color: #F57D3F;
+  } */
+  
+  .events{
+    background-color: #FFDD80;
+    font-family:Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .eventstext{
+    background-color: #FFDD80;
+    margin-top: -50px;
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+/* Gael's code ends here 14/05/2019 */
   p {
     font-family:Avenir;
     font-weight:normal;
