@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./src/global.css">
+    <!-- import the webpage's javascript file -->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+
+   <script src="./src/home-page.js"></script>
+   <script src="./src/categories-page.js"></script>
+   <script src="./src/events-page.js"></script>
+   <script src="src/cart-page.js"></script>
+   <script src="src/checkout-page.js"></script>
+   <script src="src/productdescription-page.js"></script>
+   <script src="src/registration-page.js"></script>
+   <script src="src/signin-page.js"></script>
+ 
+    <!-- import the CSS file -->
+   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+  </head>  
+  
+  <body>
+      
+       
+    <ion-app>
+        
+        <ion-router>  
+            <ion-route url="/" component="home-page"></ion-route>
+            <ion-route url="/home" component="home-page"></ion-route>
+   <!-- <ion-route url="/search" component="home-page"></ion-route> -->
+            <ion-route url="/categories" component="categories-page"></ion-route>
+            <ion-route url="/categories/:category/:id" component="categories-page"></ion-route>
+            <ion-route url="/productdescription/:id" component="productdescription-page"></ion-route>
+            <ion-route url="/events" component="events-page"></ion-route>
+            <ion-route url="/events/:description/:id" component="events-page"></ion-route>
+            <ion-route url="/cart" component="cart-page"></ion-route>
+            <ion-route url="/checkout" component="checkout-page"></ion-route>
+
+            <ion-route url="/registration" component="registration-page"></ion-route>
+            <ion-route url="/signin" component="signin-page"></ion-route>
+        </ion-router>
+
+              <ion-header>
+      
+                <ion-toolbar color="primary">
+                  
+                  <!--Icon on left of bontero-->
+            <ion-buttons slot="start">
+              
+              
+              <ion-button>
+                
+                <ion-icon name="menu" color="tertiary"></ion-icon>
+              </ion-button>
+              
+              
+              <ion-button>
+                <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+                  
+            <!--Icon on right of bontero-->
+                  
+            <ion-title color="tertiary">BONTERO</ion-title>
+                  
+               <!--Icon on left of bontero-->    
+                  
+            <ion-buttons slot="end">
+              
+              <ion-button color="tertiary">
+                <ion-icon slot="icon-only" name="contact"></ion-icon>
+              </ion-button>
+              
+              <ion-button color="tertiary">
+                <ion-icon name="cart"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+          </ion-toolbar>
+              </ion-header>
+        <ion-nav>
+
+        </ion-nav>
+        <ion-footer> 
+                <p>
+               Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
+             </p>
+             </ion-footer>
+    </ion-app>
+
+   <!-- <a href="/home-page">Home Page 2</a>
+    <a href="/categories-page">ads Page</a>
+    <a href="/events-page">events-page Page</a>-->
+
+  </body>
+
+</html>
