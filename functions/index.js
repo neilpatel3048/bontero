@@ -2,8 +2,8 @@ const functions = require('firebase-functions');
 const admin = require("firebase-admin");
 admin.initializeApp ();
 
-const products = require("./apis/products");
-const registration = require("./apis/registration");
+const products = require("./api/products");
+const registration = require("./api/registration");
 
 module.exports = {
 
