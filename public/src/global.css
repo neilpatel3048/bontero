@@ -23,6 +23,7 @@ ion-icon
  size : small;
 }
 
+/*
 ion-title {
 
   top: 0;
@@ -38,6 +39,13 @@ ion-title {
   font-weight: bold;
   font-size: 30px;
   line-height: 38px;
+}
+*/
+ion-title
+{
+  margin-top:6px;
+  vertical-align: Center;
+ 
 }
 
 ion-grid
