@@ -131,7 +131,7 @@ ion-title {
   } */
   
   .categories-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/f9b7eb12-98b1-4abb-9ba8-2377cb66de10%2Fasian-food-beans-cuisine-618491.jpg?1557846940116");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/categoriespage/shopveggies.jpg");
     height: 25%;
     left: 0px;
     right: 0px;
@@ -142,7 +142,7 @@ ion-title {
   }
   
   .events-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/bontero-50f6a.appspot.com/o/events_painting.jpg?alt=media&token=78c1af56-8ca9-4e5f-bcdf-3a018bc69cba");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/eventspage/volunteerfriends.jpg");
     height: 25%;
     left: 0px;
     right: 0px;
@@ -155,7 +155,7 @@ ion-title {
   
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/62308f07-7e5c-4e0b-b423-e20d18091413%2FHome%20Header.jpg?1557846419110");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/homepage/homeheader.jpg");
   
     /* Set a specific height */
     height: 50%;
@@ -589,3 +589,8 @@ color: #3D3D3D;
   }
   
 
+  .connectus
+  {
+    text-align: center;
+    font-size: 20px; 
+  }
