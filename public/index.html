@@ -13,12 +13,14 @@
 
    <script src="./src/home-page.js"></script>
    <script src="./src/categories-page.js"></script>
+   <script src="./src/organicproducts-page.js"></script>
    <script src="./src/events-page.js"></script>
-   <script src="src/cart-page.js"></script>
-   <script src="src/checkout-page.js"></script>
-   <script src="src/productdescription-page.js"></script>
-   <script src="src/registration-page.js"></script>
-   <script src="src/signin-page.js"></script>
+   <script src="./src/cart-page.js"></script>
+   <script src="./src/checkout-page.js"></script>
+   <script src="./src/productdescription-page.js"></script>
+   <script src="./src/productimpact-page.js"></script>
+   <script src="./src/registration-page.js"></script>
+   <script src="./src/signin-page.js"></script>
  
     <!-- import the CSS file -->
    <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
@@ -35,7 +37,9 @@
    <!-- <ion-route url="/search" component="home-page"></ion-route> -->
             <ion-route url="/categories" component="categories-page"></ion-route>
             <ion-route url="/categories/:category/:id" component="categories-page"></ion-route>
+            <ion-route url="/organicproducts" component="organicproducts-page"></ion-route>
             <ion-route url="/productdescription/:id" component="productdescription-page"></ion-route>
+            <ion-route url="/productimpact/:id" component="productimpact-page"></ion-route>
             <ion-route url="/events" component="events-page"></ion-route>
             <ion-route url="/events/:description/:id" component="events-page"></ion-route>
             <ion-route url="/cart" component="cart-page"></ion-route>
