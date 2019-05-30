@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./src/global.css">
+    <!-- import the webpage's javascript file -->
+    <script src="./src/events-page.js"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+  </head>  
+
+<body >
+
+    <ion-app>
+    
+            <ion-content color="primary"> 
+                <div class="btncancel" style="background-color: #ffca36">
+                  
+                        <ion-buttons  slot="end">
+            
+                                <ion-button href="home.html" color="tertiary">
+                                        <ion-icon name="close"></ion-icon>
+                         </ion-button>
+                        </ion-buttons>
+      
+                    </div>
+
+          
+        
+            <div class="divsearch">
+                    <ion-searchbar show-cancel-button cancel-button-text="Custom Cancel"></ion-searchbar>
+
+            </div>
+               
+            <div class="searchtextdiv">
+                <a class="searchtext" href="organicproducts.html">Popular Product</a>
+                <br>
+                <br>
+                <br>
+                <a class="searchtext" href="productdescription.html"> Avacado</a>
+                <br>
+                <br>
+                <br>
+                <a class="searchtext" href="productdescription.html"> Shampoo</a>
+            </div>    
+            </ion-content>
+    </ion-app>
+    </body>  
+</html>

@@ -77,9 +77,9 @@ class Productdesc extends HTMLElement
             <!-- Content starts here-->
             <div class="productdesc">
       
-              <ion-card class="imagesizepd">
-                <img class= "imagesize" src="https://firebasestorage.googleapis.com/v0/b/bontero-50f6a.appspot.com/o/avocado.jpg?alt=media&token=6a141a17-7c6b-4b86-a44d-9ebc1b2dbaa9" />
-              </ion-card>
+            <ion-card class="imagesizepd">
+            <img class= "imagesize" src="/assets/productspage/avocado.jpg" />
+          </ion-card>
                 <div class= "pdproductdetail">
                   <h1 class="pname"> Avocado</h1>
                   <center>
