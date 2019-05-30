@@ -202,18 +202,19 @@ ion-title {
     text-align: center;
   }
   
-  .socialmedia {
-    font-size: 48px;
-    padding-left: 4vw;
-    padding-right: 4vw;
-  }
-  
+
   .socialgroup{
-    text-align: center;
-    size : small;
+    padding-top: 1em; 
+    padding-bottom: 1em;
+    width: 100%;
+    font-size: 3vw;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
   }
+
   
-  .heart-button {
+  /*.heart-button {
     border: none;
     color: #F57D3F;
     padding: 16px 16px;
@@ -227,7 +228,8 @@ ion-title {
   }
   
   .heart-button:hover {opacity: 1;}
-  /*.heart-button:active:after {
+
+  .heart-button:active:after {
     padding: 0;
     margin: 0;
     opacity: 1;
@@ -584,8 +586,59 @@ color: #3D3D3D;
   .arrow-dropright{
   padding-right: 100px;
   color:white;
-  
-  
   }
   
+  .eventDescHead{
+    background-image: url("/assets/eventspage/cleaningbeach.jpeg");
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0px;
+  }
+  
+.heart{
+  padding-right: 5em;
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  }
+ 
+  
+ 
+  li {
+  margin-left : auto;
+  }
+ 
+  
+ 
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  }
+ 
+  .volunteerBtn{
+    position: center;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .time{
+   position: absolute;
+   font-size: 30px;
+  }
+
+  span{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 0 1em;
+  }
