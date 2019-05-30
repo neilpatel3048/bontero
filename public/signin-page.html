@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./src/global.css">
+    <!-- import the webpage's javascript file -->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+  </head>  
+  
+<body>
+<ion-app>
+    <ion-header>
+
+        <ion-toolbar color="primary">
+    
+            <!--Icon on left of bontero-->
+            <ion-buttons slot="start">
+    
+                <ion-button>
+    
+                    <ion-icon name="menu" color="tertiary"></ion-icon>
+                </ion-button>
+    
+                <ion-button>
+                    <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+                </ion-button>
+            </ion-buttons>
+    
+            <!--Icon on right of bontero-->
+    
+            <!--<ion-title color="tertiary">BONTERO</ion-title>-->
+    
+            <ion-title><img src="/public/assets/bonterologo.svg" alt="Bontero"></ion-title>
+    
+            <!--Icon on left of bontero-->
+    
+            <ion-buttons slot="end">
+    
+                <ion-button color="tertiary">
+                    <ion-icon slot="icon-only" name="contact"></ion-icon>
+                </ion-button>
+    
+                <ion-button color="tertiary">
+                    <ion-icon name="cart"></ion-icon>
+                </ion-button>
+            </ion-buttons>
+        </ion-toolbar>
+        <ion-toolbar>
+            <ion-title>Sign in</ion-title>
+          </ion-toolbar>
+    </ion-header>
+<ion-content >
+
+  <div padding>
+    
+      <span class="backtocart"><ion-icon name="arrow-back"></ion-icon> back to cart
+      </span>
+      </div>
+
+    <div>
+        <p>
+            Are you a member? Log in to check out
+        </p>
+    </div>
+    
+    <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+    
+    <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+    
+    <ion-button padding expand="block" color="secondary">Sign In and Checkout</ion-button>
+    
+    <div>
+        <p>
+            or
+        </p>
+    </div>
+    
+    <button class="loginBtn loginBtn--facebook">
+        Login with Facebook
+    </button>
+    
+    <button class="loginBtn loginBtn--google">
+        Login with Google
+    </button>
+    <div>
+        <p>
+            <u>forgot your username and password?</u>
+        </p>
+    </div>
+    <div class="customer">
+        <h2>
+          New Customer?
+        </h2>
+        <p>
+            You can create an account later.
+            <br>Accounts allow you to check out faster.
+        </p>
+    </div>
+    <ion-button padding expand="block" color="secondary">Checkout as guest</ion-button>
+
+    <h4 class="connectwithus">
+        Connect with us
+      </h4>
+<div class="socialgroup">
+<ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
+<ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
+<ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
+<ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
+</div>
+<ion-footer>
+<p>
+    Contact us
+    <br> Privacy policy
+    <br> Accessibility
+    <br> Terms and use
+    <br>2019 BONTERO. All rights reserved.
+</p>
+</ion-footer>
+</ion-content>
+</ion-app>
+  </body>
+<script src="./script.js"></script>
+</html>
