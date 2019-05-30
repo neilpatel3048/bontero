@@ -12,6 +12,7 @@
    <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
 
    <script src="./src/home-page.js"></script>
+   <script src="./src/search-page.js"></script>
    <script src="./src/categories-page.js"></script>
    <script src="./src/organicproducts-page.js"></script>
    <script src="./src/events-page.js"></script>
@@ -34,7 +35,7 @@
         <ion-router>  
             <ion-route url="/" component="home-page"></ion-route>
             <ion-route url="/home" component="home-page"></ion-route>
-   <!-- <ion-route url="/search" component="home-page"></ion-route> -->
+           <ion-route url="/search" component="search-page"></ion-route> 
             <ion-route url="/categories" component="categories-page"></ion-route>
             <ion-route url="/categories/:category/:id" component="categories-page"></ion-route>
             <ion-route url="/organicproducts" component="organicproducts-page"></ion-route>
@@ -72,7 +73,7 @@
                   
             <!--<ion-title color="tertiary">BONTERO</ion-title>-->
 
-             <ion-title><img src="/assets/bonterologo.svg" alt="Bontero"></ion-title>
+            <ion-title><img class="logosize" src="/assets/bonterologo.svg" alt="Bontero"></ion-title>
                   
                <!--Icon on left of bontero-->    
                   
@@ -88,7 +89,7 @@
             </ion-buttons>
           </ion-toolbar>
               </ion-header>
-        <ion-nav>
+-->        <ion-nav>
 
         </ion-nav>
         <ion-footer> 
