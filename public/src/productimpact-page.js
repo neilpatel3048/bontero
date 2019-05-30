@@ -110,7 +110,7 @@ class ProductImpact extends HTMLElement
                  
                  </center>
                <ion-buttons slot="end" class="btnproducer">
-                Producer
+                Impact
                </ion-buttons>
             </ion-toolbar>
          
