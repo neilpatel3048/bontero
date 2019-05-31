@@ -756,3 +756,110 @@ ion-input {
 .customer {
     margin-top: 5em;
 }
+
+
+.progressbar
+{
+  margin-top:1em;
+  margin-bottom: 0.5em;
+  margin-left:0.5em;
+  margin-right: 0.5em;
+
+}
+
+.progressbarimg
+{
+  
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.cardproduct1
+{
+  background: #FFDD80;
+ 
+    
+    width: 100%;
+    height: 140px;
+    margin-top:0.4em;
+    margin-bottom: 0.4em;
+    margin-right: 0.4em;
+    margin-left: 0.4em; 
+
+}
+
+.cardproduct2
+{
+  background: #FFDD80;
+ 
+   
+    width: 100%;
+    height: 140px;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+    margin-right: 0.4em;
+    margin-left: 0.4em; 
+
+}
+
+.imagesizecart
+{
+
+  height: 58px;
+  width: 56px;
+}
+
+.col2cart
+{
+
+ margin-left: 4px; 
+ align-items: center; 
+}
+
+.btnsizecart1
+{
+  width:30px;
+}
+.btnsizecart2
+{
+  width:30px;
+}
+
+
+.inputcart
+{
+  height: 50px;
+  width: 30px;
+}
+
+
+.cartprice
+{
+  margin-top: 1em;
+}
+
+
+.promocode
+{
+  margin-top : 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 2px solid #000000;
+}
+
+.col2promo
+{
+  align-items: center; 
+
+}
+
+.btnpromo
+{
+  height:30px;
+  width : 80px;
+}

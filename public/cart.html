@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./src/global.css">
+    <!-- import the webpage's javascript file -->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+ 
+   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+  </head>  
+
+<body>
+    <!--Gael Code starts here 14/05/2019 -->
+
+
+    <ion-app>
+
+      
+      <ion-menu side="start" menu-id="first">
+        <ion-header>
+          <ion-toolbar color="secondary">
+            <ion-title>Start Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+      </ion-menu>
+          <!--Coding starts here-->
+      <ion-header>
+        <ion-toolbar color="primary">
+          <!--Icon on left of bontero-->
+          <ion-buttons slot="start">
+            <ion-button>
+              <ion-icon name="menu" color="tertiary"></ion-icon>
+            </ion-button>
+            <ion-button>
+              <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+            </ion-button>
+          </ion-buttons>   
+          <!--Icon on right of bontero-->    
+          <ion-title><img class="logosize" src="/assets/bonterologo.svg" alt="Bontero"></ion-title>
+          <!--Icon on left of bontero-->       
+              <ion-buttons slot="end">
+                <ion-button color="tertiary">
+                  <ion-icon slot="icon-only" name="contact"></ion-icon>
+                </ion-button>
+                <ion-button color="tertiary">
+                  <ion-icon name="cart"></ion-icon>
+                </ion-button>
+              </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+  
+     <ion-content>
+        <ion-toolbar>
+            <ion-buttons slot="start">
+            <ion-button href= "productdescription.html">
+              <ion-icon  class="backarrow" ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+            </ion-button>
+            </ion-buttons>
+            <ion-title class="orgheader">Shopping Cart</ion-title>
+           
+          </ion-toolbar>
+       <center>
+       <div class="progressbar">
+           <img class="progressbarimg" src="./assets/cart/Progress 1.svg">
+       </div>
+    </center>
+      
+       <div class="cardproduct1">
+        
+         
+            <ion-grid>
+              
+                <ion-row>
+                    <ion-col class="col1cart" size="3">
+                       <ion-card class= "imagesizecart" >
+                         <img src="/assets/productspage/avocado.jpg" />
+                        </ion-card>
+                    </ion-col>
+                    
+                     <ion-col size="3" class="col2cart">
+                      <h5>Avocado</h5>
+                    </ion-col>
+                   
+                    <ion-col size="5" class="col3cart">
+                        <ion-button color="secondary" class="btnsizecart1">+</ion-button>
+                        <input class="inputcart" type="text" name="quantity" value="1" align="center">
+                        <ion-button color="secondary" class="btnsizecart2">-</ion-button>
+                      </ion-col>
+                  </ion-row>
+             
+            </ion-grid> 
+        </div>
+        <div class="cardproduct2">
+            <ion-grid>  
+             <ion-row>
+                <ion-col class="col1cart" size="3">
+                   <ion-card class= "imagesizecart" >
+                     <img src="/assets/productspage/Beet.jpg" />
+                    </ion-card>
+                    <ion-row class="cartprice">
+                            <ion-card-content class="lastprice">
+                                    € 8.20       
+                            </ion-card-content>
+                    </ion-row>
+                </ion-col>
+                
+                 <ion-col size="3" class="col2cart">
+                  <h5>Beet</h5>
+                </ion-col>
+               
+                <ion-col size="5" class="col3cart">
+                    <ion-button color="secondary" class="btnsizecart1">+</ion-button>
+                    <input class="inputcart" type="text" name="quantity" value="1" align="center">
+                    <ion-button color="secondary" class="btnsizecart2">-</ion-button>
+                
+                    <ion-row class="cartprice">
+                            <ion-card-content class="lastprice">
+                                    € 8.20       
+                            </ion-card-content>
+                    </ion-row>
+                  </ion-col>
+              </ion-row>
+        
+             </ion-grid> 
+        </div>
+       
+    <ion-grid> 
+        <ion-row>
+            <ion-col size="5" class="col3cart">
+                
+                <ion-button class="btnpromo" color="secondary" href="#">Anchor</ion-button>
+                <ion-button color="secondary" class="btnpromo">Apply</ion-button>
+              
+       
+         </ion-row>
+    </ion-grid>
+          <ion-grid>
+              
+                        <ion-row>
+                            <ion-col size="6" >
+                                    <ion-input class="promocode" placeholder="PROMO CODE"> </ion-input>
+                            </ion-col>
+                            
+                             <ion-col size="6" class="col2promo" >
+                             
+                                        <ion-button class="btnpromo" color="secondary" href="#">Anchor</ion-button>
+
+                            
+                            </ion-col>
+                           
+                           
+                        </ion-row>
+                     
+                    </ion-grid> 
+       
+       
+      </ion-content>
+
+   
+    </ion-app>
+
+</body>
+<script src="./src/categories-page.js"></script>
+</html>
