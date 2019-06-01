@@ -136,7 +136,7 @@ ion-grid
 {
   width: 35px;
   height: 50px;
-  left: 10%;
+  left: 1em;
   right: 92.22%;
   top: 5.93%;
   bottom: 92.86%;
@@ -842,10 +842,10 @@ ion-input {
 
 .promocode
 {
-  margin-top : 1em;
+  margin-top : 1.5em;
   margin-left: 1em;
   margin-right: 1em;
-  
+  width :200px;
   border-radius: 20px 20px 20px 20px;
   -moz-border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
@@ -860,6 +860,79 @@ ion-input {
 
 .btnpromo
 {
-  height:30px;
-  width : 80px;
+  height:50px;
+  width : 120px;
 }
+
+
+.toolbarpadl
+{
+  margin-left: 1em;
+  font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+  
+}
+
+.toolbarpadr
+{
+  font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+  margin-right: 1em;
+  
+}
+
+.btnquickpay
+{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  height: 48px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.btncheckout
+{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  height: 48px;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.backarrow1
+{
+  width: 35px;
+  height: 50px;
+}
+
+
+
+.socialgroup1{
+  width: 100%;
+  text-align:center;
+  font-size: 8vw;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: center;
+  justify-content: center;
+  left: 0;
+  
+  }
+
+  p.pfooter
+  {
+    margin-top: 0px;
+  }
