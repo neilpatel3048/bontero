@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hello!</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- import the webpage's stylesheet -->
+<link rel="stylesheet" href="./src/global.css">
+<!-- import the webpage's javascript file -->
+<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+<script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+<link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+</head> 
+
+
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="primary">
+                <ion-buttons slot="start">
+                        <ion-button>
+                        <ion-icon name="menu" color="tertiary"></ion-icon>
+                        </ion-button>
+                        <ion-button>
+                        <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+                        </ion-button>
+                        </ion-buttons>
+                            <!--Icon on right of bontero--> 
+                        <ion-title color="tertiary">BONTERO</ion-title> 
+                            <!--Icon on left of bontero--> 
+                        <ion-buttons slot="end">
+                        <ion-button color="tertiary">
+                        <ion-icon slot="icon-only" name="contact"></ion-icon>
+                        </ion-button>
+                        <ion-button color="tertiary">
+                        <ion-icon name="cart"></ion-icon>
+                        </ion-button>
+                    </ion-buttons>
+                </ion-toolbar>
+            </ion-header>
+
+
+
+<ion-content>
+    <div class="eventDescHead"> 
+        <ion-fab class="heart" vertical="bottom" horizontal="end" slot="fixed">
+            <ion-fab-button><ion-icon name="heart"></ion-icon></ion-fab-button>
+        </ion-fab>
+
+            <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+            <ion-fab-button><ion-icon name="share"></ion-icon></ion-fab-button>
+            <ion-fab-list side="bottom">
+            <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+            <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+            <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+            </ion-fab-list>
+            </ion-fab> 
+        </div>
+        <h1 class="banner">
+            Cleaning Beach Day
+        </h1>
+        <div class="volunteerBtn">
+            <ion-button padding expand="block" color="secondary">Volunteer</ion-button>
+        </div>
+
+
+<br>
+<hr style="height:1px; border:none; color:#000; background-color:#000; width:80%; text-align:center; margin: 0 auto;">
+<br> 
+
+        <div class="container2">
+    <ul>
+   <li> <span><ion-icon class="eventDesc" name="time" size="medium" vertical="bottom"></ion-icon> July 10 2019, 10:00am </span></li>
+   <li><span> <ion-icon class="eventDesc" name="pin"></ion-icon> Meet at Barceloneta metro station</span></li>
+    </ul>
+
+    <div class="details">
+        <h4>Details</h4>
+        <br>
+        <h5>Join us as we get together on our monthly clean up of San Sebastia beach. We want to keep our beach beautiful and special for locals and visitors to this beautiful part of town! Come for a few hours to clean, meet new friends, and enjoy some refreshments afterwards. </h5>
+        <br>
+        <h5>Note: Where comfortable clothes and sandals</h5>
+        <br>
+        <h5>See you there! </h5>
+    </div>
+    <br>
+    <hr style="height:1px; border:none; color:#000; background-color:#000; width:80%; text-align:center; margin: 0 auto;">
+    <br>
+    
+    <div class="volunteerBtn">
+        <ion-button padding expand="block" color="secondary">Volunteer</ion-button>
+    </div>
+        </div>
+
+</ion-content>
+</ion-app>
+</body> 
+</html>

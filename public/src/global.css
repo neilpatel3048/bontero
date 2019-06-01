@@ -600,9 +600,9 @@ color: #3D3D3D;
   
   
   h4{
-  font-family:Avenir;
+  font-family:Avenir LT W01 45 Book;
   font-weight:normal;
-  
+
   }
   
   .arrow-dropright{
@@ -755,4 +755,54 @@ ion-input {
 
 .customer {
     margin-top: 5em;
+}
+
+.eventDescHead{
+  background-image: url("/assets/eventspage/cleaningbeach.jpeg");
+  height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 0px;
+}
+
+.heart{
+padding-right: 5em;
+}
+
+.container2{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.eventDesc{
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2em;
+  }
+
+li{
+  padding-bottom: 1em;
+}
+
+.details{
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+h5{
+  font-family: Avenir LT W01 35 Light;
+  font-weight: lighter; 
+  font-size: 1.2em;
 }
