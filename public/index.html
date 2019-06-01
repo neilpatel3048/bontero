@@ -93,18 +93,9 @@
 -->        <ion-nav>
 
         </ion-nav>
-        
-          
         <ion-footer> 
-            <h3 class="connectwithus">Connect With Us</h3>
-            <div class="socialgroup">
-              <ion-icon class="media" name="logo-facebook" color="secondary" ></ion-icon>
-              <ion-icon class="media" name="logo-instagram" color="secondary" ></ion-icon>
-              <ion-icon class="media" name="logo-twitter" color="secondary" ></ion-icon>
-              <ion-icon class="media" name="logo-youtube" color="secondary" ></ion-icon>
-              </div>
                 <p>
-               Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
+               Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
              </p>
              </ion-footer>
     </ion-app>
@@ -112,23 +103,7 @@
    <!-- <a href="/home-page">Home Page 2</a>
     <a href="/categories-page">ads Page</a>
     <a href="/events-page">events-page Page</a>-->
-    <script>
-      if ("serviceWorker" in navigator) {
-        if (navigator.serviceWorker.controller) {
-          console.log("[PWA Builder] active service worker found, no need to register");
-        } else {
-    // Register the service worker
-      navigator.serviceWorker
-       .register("sw.js", {
-          scope: "./"
-        })
-      .then(function (reg) {
-          console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-       });
-     }
-    }
 
-    </script>
   </body>
 
 </html>
