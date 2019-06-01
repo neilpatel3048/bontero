@@ -110,7 +110,7 @@ class HomePage extends HTMLElement
          <img class= "imagesize" src="/assets/productspage/avocado.jpg" />
          <ion-card-header class="productname">
        
-           <ion-card-title>Avocado</ion-card-title>
+           <ion-card-title class="smallfont1">Avocado</ion-card-title>
          </ion-card-header>
             
          <ion-card-content class="cancelprice">
@@ -130,7 +130,7 @@ class HomePage extends HTMLElement
          <img class="imagesize" src="/assets/productspage/soap.jpg" />
         <ion-card-header class="productname">
        
-           <ion-card-title>Soap</ion-card-title>
+           <ion-card-title class="smallfont1">Soap</ion-card-title>
          </ion-card-header>
             
          <ion-card-content class="cancelprice">
@@ -162,7 +162,7 @@ class HomePage extends HTMLElement
              <img class= "imagesize" src="/assets/eventspage/cleaningbeach.jpeg" />
              <ion-card-header class="productname">
            
-               <ion-card-title>Clean Beach</ion-card-title>
+               <ion-card-title  class="smallfont">Clean Beach</ion-card-title>
              </ion-card-header>
                 
              <ion-card-content class="date">
@@ -182,7 +182,7 @@ class HomePage extends HTMLElement
              <img class="imagesize" src="/assets/eventspage/events_planting.jpg" />
             <ion-card-header class="productname">
            
-               <ion-card-title>Plant trees</ion-card-title>
+               <ion-card-title  class="smallfont">Plant trees</ion-card-title>
              </ion-card-header>
                 
              <ion-card-content class="date">
@@ -199,14 +199,10 @@ class HomePage extends HTMLElement
            </ion-grid> 
            
            
-           <div>
-             <h2>
-               Featured Events
-             </h2>
-           </div>
+          
      
            
- 
+           <ion-footer> 
            <h4 class="connectwithus">
              Connect with us
            </h4>
@@ -216,7 +212,7 @@ class HomePage extends HTMLElement
              <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
              <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
            </div>
-           <ion-footer> 
+           
                <p>
               Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
             </p>
