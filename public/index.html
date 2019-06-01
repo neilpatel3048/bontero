@@ -12,6 +12,7 @@
     <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
    <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
 
+   <script src="./index.js"></script>
    <script src="./src/home-page.js"></script>
    <script src="./src/search-page.js"></script>
    <script src="./src/categories-page.js"></script>
@@ -59,7 +60,7 @@
             <ion-buttons slot="start">
               
               
-              <ion-button>
+              <ion-button onclick="openNav()">
                 
                 <ion-icon name="menu" color="tertiary"></ion-icon>
               </ion-button>
@@ -74,7 +75,7 @@
                   
             <!--<ion-title color="tertiary">BONTERO</ion-title>-->
 
-            <ion-title><img class="logosize" src="/assets/bonterologo.svg" alt="Bontero"></ion-title>
+            <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
                   
                <!--Icon on left of bontero-->    
                   
@@ -90,11 +91,9 @@
             </ion-buttons>
           </ion-toolbar>
               </ion-header>
--->        <ion-nav>
-
-        </ion-nav>
-        
-          
+             
+              <ion-content>
+-->                 
         <ion-footer> 
             <h3 class="connectwithus">Connect With Us</h3>
             <div class="socialgroup">
@@ -107,7 +106,18 @@
                Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
              </p>
              </ion-footer>
+
+            </ion-content>
     </ion-app>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Shop</a>
+      <a href="#">Events</a>
+      <a href="#">Blog</a>
+      <a href="#">Profile</a>
+      <a href="#">About us</a>
+    </div>
 
    <!-- <a href="/home-page">Home Page 2</a>
     <a href="/categories-page">ads Page</a>
@@ -129,6 +139,17 @@
     }
 
     </script>
+
+  <script>
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+  </script>
   </body>
 
 </html>

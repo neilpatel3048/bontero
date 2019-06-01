@@ -84,6 +84,7 @@ ion-footer {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
+  position: absolute;
 
 }
 
@@ -215,7 +216,7 @@ ion-title {
   } */
   
   .categories-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/categoriespage/shopveggies.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/categoriespage/shopveggies.jpg");
     height: 25%;
     left: 0px;
     right: 0px;
@@ -226,7 +227,7 @@ ion-title {
   }
   
   .events-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/eventspage/volunteerfriends.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/eventspage/volunteerfriends.jpg");
     height: 25%;
     left: 0px;
     right: 0px;
@@ -239,7 +240,7 @@ ion-title {
   
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/homepage/homeheader.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".assets/homepage/homeheader.jpg");
   
     /* Set a specific height */
     height: 50%;
@@ -756,3 +757,46 @@ ion-input {
 .customer {
     margin-top: 5em;
 }
+
+/* menu bar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFDD80;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: Avenir;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #009E71;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* end of menu bar */

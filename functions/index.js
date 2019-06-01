@@ -1,3 +1,12 @@
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+  
 const functions = require('firebase-functions');
 const admin = require("firebase-admin");
 admin.initializeApp ();
@@ -30,3 +39,4 @@ module.exports = {
     getCategories: functions.https.onRequest(categories.get),
     searchCategories: functions.https.onRequest(categories.search)
 };
+
