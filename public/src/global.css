@@ -126,10 +126,8 @@ ion-title
 
 ion-grid
 {
-  padding-top : 16px;
-  padding-left : 16px;
-  padding-right : 16px;
- padding-bottom : 16px;
+ 
+ padding-bottom : 4vw;
 }
 
 .backarrow
@@ -143,6 +141,31 @@ ion-grid
   padding: 0.8em;
 }
 
+ion-card-header
+{
+  margin: 0px;
+  padding: 8px;
+}
+
+ion-card-content
+{
+
+ padding-left :0px;
+}
+
+.place
+{
+  padding:0px;
+  margin-left: 2vw;
+}
+
+.date
+{
+  padding:0px;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+   
+}
 
 .orgheader
 {
@@ -165,30 +188,9 @@ ion-grid
 
 
 
-.productname
-{
-height: 42px;
-left: 0%;
-right: 41.03%;
-top: calc(50% - 22px/2 + 93.5px);
 
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
 
- font-size: 16px; 
-line-height: 22px;
 
-}
-
-.cancelprice
-{
-  height: 22px;
-  left: 0%;
-  
-  top: calc(50% - 22px/2 + 119.5px);
- 
-}  
 ion-title {
  top: 0;
   left: 0;
@@ -290,7 +292,7 @@ ion-title {
   .socialgroup{
     width: 100%;
     text-align:center;
-    font-size: 3vw;
+    font-size: 8vw;
     padding-left: 1em;
     padding-right: 1em;
     display: center;
@@ -380,20 +382,7 @@ ion-title {
       /* padding-bottom: 3px; */
     
   }
-  .productname {
-  height: 42px;
-left: 0%;
-right: 41.03%;
-top: calc(50% - 22px/2 + 93.5px);
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-
- font-size: 16px; 
-line-height: 22px;
-
-  }
+  
   
  /* .imagesize{
   left: 20%;
@@ -420,9 +409,12 @@ line-height: 22px;
 }
 
 
-  
+
+
+
+
   .lastprice{
-  height: 22px;
+ 
   left: 0%;
   right: 73.72%;
   top: calc(50% - 22px/2 + 119.5px);
@@ -492,7 +484,7 @@ background-color: #009E71;
   font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 5vw;
 line-height: 24px;
 color: #D51236;
 }
@@ -908,6 +900,7 @@ line-height: 22px;
   line-height: 24px;
   height: 48px;
   margin-top: 0.5em;
+  margin-bottom: 1em;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -922,6 +915,7 @@ line-height: 22px;
 
 .socialgroup1{
   width: 100%;
+  height : 100%;
   text-align:center;
   font-size: 8vw;
   padding-left: 1em;
@@ -929,10 +923,26 @@ line-height: 22px;
   display: center;
   justify-content: center;
   left: 0;
-  git 
+
   }
 
   p.pfooter
   {
     margin: 0px;
+  }
+
+
+  .smallfont
+  {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 5vw;
+  }
+  
+  .smallfont1
+  {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 5vw;  
+    font-weight: 800;
   }
