@@ -18,7 +18,7 @@ module.exports = {
 };
 
 
-admin.initializeApp();
+//admin.initializeApp();
 
 
 const blog = require('./api/blogs');

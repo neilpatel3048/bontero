@@ -217,7 +217,7 @@ ion-title {
   } */
   
   .categories-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/categoriespage/shopveggies.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/categoriespage/shopveggies.jpg");
     height: 25%;
     left: 0px;
     right: 0px;
@@ -228,7 +228,7 @@ ion-title {
   }
   
   .events-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/eventspage/volunteerfriends.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/eventspage/volunteerfriends.jpg");
     height: 25%;
     left: 0px;
     right: 0px;
@@ -241,7 +241,7 @@ ion-title {
   
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/homepage/homeheader.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/homepage/homeheader.jpg");
   
     /* Set a specific height */
     height: 50%;

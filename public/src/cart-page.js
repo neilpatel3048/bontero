@@ -30,7 +30,7 @@ class CartPage extends HTMLElement
               </ion-button>
             </ion-buttons>   
             <!--Icon on right of bontero-->    
-            <ion-title><img class="logosize" src="/assets/bonterologo.svg" alt="Bontero"></ion-title>
+            <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
             <!--Icon on left of bontero-->       
                 <ion-buttons slot="end">
                   <ion-button color="tertiary">
@@ -53,7 +53,7 @@ class CartPage extends HTMLElement
             </ion-toolbar>
          
          <div class="progressbar">
-             <img class="progressbarimg" src="./assets/cart/Progress 1.svg">
+             <img class="progressbarimg" src="../assets/cart/Progress 1.svg">
          </div>
          
          
