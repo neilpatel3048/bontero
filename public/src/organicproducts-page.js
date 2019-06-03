@@ -85,7 +85,7 @@ class OrganicProducts extends HTMLElement
             <ion-row>
               <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class= "imagesize" src="/assets/productspage/avocado.jpg" />
+              <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
               <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Avocado</ion-card-title>
@@ -105,7 +105,7 @@ class OrganicProducts extends HTMLElement
               
                <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class="imagesize" src="/assets/productspage/greenpepper.jpg" />
+              <img class="imagesize" src="./assets/productspage/greenpepper.jpg" />
              <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Pepper</ion-card-title>
@@ -130,7 +130,7 @@ class OrganicProducts extends HTMLElement
             <ion-row>
               <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class= "imagesize" src="/assets/productspage/beet.jpg" />
+              <img class= "imagesize" src="./assets/productspage/beet.jpg" />
               
                   <ion-card-header class="productname">
             
@@ -151,7 +151,7 @@ class OrganicProducts extends HTMLElement
              
                <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class="imagesize" src="/assets/productspage/kale.jpg" />
+              <img class="imagesize" src="./assets/productspage/kale.jpg" />
              <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Kale</ion-card-title>
@@ -179,7 +179,7 @@ class OrganicProducts extends HTMLElement
             <ion-row>
               <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class= "imagesize" src="/assets/productspage/pear.jpg" />
+              <img class= "imagesize" src="./assets/productspage/pear.jpg" />
               <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Pear</ion-card-title>
@@ -199,7 +199,7 @@ class OrganicProducts extends HTMLElement
               
                <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class="imagesize" src="/assets/productspage/orange.jpg" />
+              <img class="imagesize" src="./assets/productspage/orange.jpg" />
              <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Orange</ion-card-title>
@@ -224,7 +224,7 @@ class OrganicProducts extends HTMLElement
             <ion-row>
               <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class= "imagesize" src="/assets/productspage/apple.jpg" />
+              <img class= "imagesize" src="./assets/productspage/apple.jpg" />
               <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Apple</ion-card-title>
@@ -244,7 +244,7 @@ class OrganicProducts extends HTMLElement
              
                <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class="imagesize" src="/assets/productspage/cucumber.jpg" />
+              <img class="imagesize" src="./assets/productspage/cucumber.jpg" />
              <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Cucumber</ion-card-title>

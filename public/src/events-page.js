@@ -70,7 +70,7 @@ class EventsPage extends HTMLElement
                 
                 <!-- These are all the cards within the page-->
                    <ion-card>
-                     <ion-img src="/assets/eventspage/cleaningbeach.jpeg"></ion-img>
+                     <ion-img src="./assets/eventspage/cleaningbeach.jpeg"></ion-img>
                      <ion-card-header>
                           <ion-card-subtitle>May 10, Friday 10:00 at Barcelonneta</ion-card-subtitle> 
                            <ion-card-title>Cleaning Beach Day</ion-card-title>
@@ -102,7 +102,7 @@ class EventsPage extends HTMLElement
                 
                  <ion-card>
                      <ion-card-header>
-                       <ion-img src="/assets/eventspage/events_planting.jpg"></ion-img>
+                       <ion-img src="./assets/eventspage/events_planting.jpg"></ion-img>
                           <ion-card-subtitle>May 15, Wednesday  16:00 at Parc Ciutadella</ion-card-subtitle> 
                            <ion-card-title>Cituadella’s 200th celebration </ion-card-title>
                      </ion-card-header>
@@ -132,7 +132,7 @@ class EventsPage extends HTMLElement
                 
                   <ion-card>
                      <ion-card-header>
-                       <ion-img src="/assets/eventspage/events_planting(1).jpg"></ion-img>
+                       <ion-img src="./assets/eventspage/events_planting(1).jpg"></ion-img>
                           <ion-card-subtitle>June 2, Sunday  10:00 Plaza Gracia</ion-card-subtitle> 
                            <ion-card-title>Help us make the Plaza Gracia look pretty!</ion-card-title>
                      </ion-card-header>
@@ -160,7 +160,7 @@ class EventsPage extends HTMLElement
                 
                      <ion-card>
                      <ion-card-header>
-                       <ion-img src="/assets/eventspage/teacherclass.jpg"></ion-img>
+                       <ion-img src="./assets/eventspage/teacherclass.jpg"></ion-img>
                           <ion-card-subtitle>June 7, Friday  14:00 at Escola Sant Felip Neri</ion-card-subtitle> 
                            <ion-card-title>Tutor kids on how to reduce, reuse, recycle</ion-card-title>
                      </ion-card-header>
