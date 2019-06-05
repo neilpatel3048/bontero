@@ -23,6 +23,7 @@
    <script src="./src/productimpact-page.js"></script>
    <script src="./src/registration-page.js"></script>
    <script src="./src/signin-page.js"></script>
+   <script src="./src/side-menu.js"></script>
  
     <!-- import the CSS file -->
    <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
@@ -30,7 +31,7 @@
   
   <body>
       
-       
+       <side-menu></side-menu>
     <ion-app>
         
         <ion-router>  
@@ -46,7 +47,6 @@
             <ion-route url="/events/:description/:id" component="events-page"></ion-route>
             <ion-route url="/cart" component="cart-page"></ion-route>
             <ion-route url="/checkout" component="checkout-page"></ion-route>
-
             <ion-route url="/registration" component="registration-page"></ion-route>
             <ion-route url="/signin" component="signin-page"></ion-route>
         </ion-router>
@@ -59,7 +59,7 @@
             <ion-buttons slot="start">
               
               
-              <ion-button>
+              <ion-button onclick="menuToggle()">
                 
                 <ion-icon name="menu" color="tertiary"></ion-icon>
               </ion-button>

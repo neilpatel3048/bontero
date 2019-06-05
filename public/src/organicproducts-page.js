@@ -1,13 +1,10 @@
-class OrganicProducts extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        console.log(`Welcome to the Products`);
-        this.innerHTML =`<ion-app>
+class OrganicProducts extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		console.log(`Welcome to the Products`);
+		this.innerHTML = `<ion-app>
         
         
         <ion-menu side="start" menu-id="first">
@@ -282,8 +279,8 @@ class OrganicProducts extends HTMLElement
               
             
          
-            </ion-app>`
-    }
+            </ion-app>`;
+	}
 }
 
-customElements.define('organicproducts-page', OrganicProducts)
+customElements.define('organicproducts-page', OrganicProducts);

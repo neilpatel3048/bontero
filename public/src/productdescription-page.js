@@ -1,12 +1,9 @@
-class Productdesc extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        this.innerHTML =` <ion-app>
+class Productdesc extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = ` <ion-app>
         
         
         <ion-menu side="start" menu-id="first">
@@ -130,8 +127,8 @@ class Productdesc extends HTMLElement
            
          </div>
          <br><br>
-      </ion-app>`
-    }
+      </ion-app>`;
+	}
 }
 
 customElements.define('productdescription-page', Productdesc);

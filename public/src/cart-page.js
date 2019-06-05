@@ -70,7 +70,6 @@ class CartPage extends HTMLElement {
                   <ion-button color="secondary" class="btnsizecart1">+</ion-button>
                   <input class="inputcart" type="text" name="quantity" value="1" align="center">
                   <ion-button color="secondary" class="btnsizecart2">-</ion-button>
-              
                   <ion-row class="cartprice">
                           <ion-card-content class="lastprice">
                                   € 8.20       
