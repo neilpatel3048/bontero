@@ -79,7 +79,6 @@ class OrganicProducts extends HTMLElement
         </ion-toolbar>
             
            
-          <!-------------Grid starts here-------------------------------------------------------------------------------------------------------->
            <ion-grid>
               
             <ion-row>
@@ -265,16 +264,6 @@ class OrganicProducts extends HTMLElement
              
             </ion-grid> 
             
-            
-            
-                 <!----------------------------------------------------------------> 
-            
-            <ion-footer> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
-             
            </ion-content>
           
             <!---body ends here-->

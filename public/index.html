@@ -24,6 +24,7 @@
    <script src="./src/productimpact-page.js"></script>
    <script src="./src/registration-page.js"></script>
    <script src="./src/signin-page.js"></script>
+   <script src="./src/footer-element.js"></script>
  
     <!-- import the CSS file -->
    <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
@@ -52,49 +53,30 @@
             <ion-route url="/signin" component="signin-page"></ion-route>
         </ion-router>
 
-              <ion-header>
-      
-                <ion-toolbar color="primary">
-                  
-                  <!--Icon on left of bontero-->
-            <ion-buttons slot="start">
-              
-              
-              <ion-button onclick="openNav()">
-                
-                <ion-icon name="menu" color="tertiary"></ion-icon>
+  <ion-header>
+    <ion-toolbar color="primary">
+     <ion-buttons slot="start">
+      <ion-button onclick="openNav()">         
+        <ion-icon name="menu" color="tertiary"></ion-icon>
+        </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+        <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
+          <ion-buttons slot="end">
+            <ion-button color="tertiary">
+              <ion-icon slot="icon-only" name="contact"></ion-icon>
               </ion-button>
-              
-              
-              <ion-button>
-                <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-              </ion-button>
-            </ion-buttons>
-                  
-            <!--Icon on right of bontero-->
-                  
-            <!--<ion-title color="tertiary">BONTERO</ion-title>-->
-
-            <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
-                  
-               <!--Icon on left of bontero-->    
-                  
-            <ion-buttons slot="end">
-              
-              <ion-button color="tertiary">
-                <ion-icon slot="icon-only" name="contact"></ion-icon>
-              </ion-button>
-              
               <ion-button color="tertiary">
                 <ion-icon name="cart"></ion-icon>
-              </ion-button>
+                </ion-button>
             </ion-buttons>
-          </ion-toolbar>
-              </ion-header>
+      </ion-toolbar>
+    </ion-header>
              
-              <ion-content>
--->                 
-        <ion-footer> 
+              
+    <!--<ion-footer> 
             <h3 class="connectwithus">Connect With Us</h3>
             <div class="socialgroup">
               <ion-icon class="media" name="logo-facebook" color="secondary" ></ion-icon>
@@ -105,12 +87,12 @@
                 <p>
                Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
              </p>
-             </ion-footer>
+             </ion-footer> -->
 
-            </ion-content>
+        <Footer></Footer>
     </ion-app>
     
-    <div id="mySidenav" class="sidenav">
+   <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">Shop</a>
       <a href="#">Events</a>

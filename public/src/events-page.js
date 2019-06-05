@@ -197,11 +197,6 @@ class EventsPage extends HTMLElement
                 
                 
              </div>
-             <ion-footer> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
              </ion-content>
      </ion-app>`
     }

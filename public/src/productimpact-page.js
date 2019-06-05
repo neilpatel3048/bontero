@@ -23,40 +23,7 @@ class ProductImpact extends HTMLElement
                
                <!--Coding starts here-->
          <div class="ion-page" main>
-           <ion-header>
-         <ion-toolbar color="primary">
-               
-                 <!--Icon on left of bontero-->
-               <ion-buttons slot="start">
-                 <ion-button>
-                   <ion-icon name="menu" color="tertiary"></ion-icon>
-                 </ion-button>
-                 
-                 <ion-button>
-                   <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-                 </ion-button>
-               </ion-buttons>
-       
-               <!--Icon on right of bontero-->
-       
-               <ion-title color="tertiary">BONTERO</ion-title>
-       
-                  <!--Icon on left of bontero-->    
-       
-               <ion-buttons slot="end">
-       
-                 <ion-button color="tertiary">
-                   <ion-icon slot="icon-only" name="contact"></ion-icon>
-                 </ion-button>
-       
-                 <ion-button color="tertiary">
-                   <ion-icon name="cart"></ion-icon>
-                 </ion-button>
-                 
-               </ion-buttons>
-           </ion-toolbar>
-           </ion-header>
-           
+ 
            <!---body starts here-->
            <ion-content >
              
@@ -120,13 +87,7 @@ class ProductImpact extends HTMLElement
                    La Nucia Farms is a family-owned business based in outskirts of Malaga. They are committed to producing the finest possible fresh vegetables and fruits which has been grown using the most sustainable methods. 
                    They are committed to operate in the most environmentally-friendly way possible. Their approach so far has produced fruits and vegetables that are fresher, tastier, and more nutritious!
              </p>
-               
-               <h1 href="aboutus.html">Connect with us</h1>    
-              <ion-footer color="primary"> 
-                <p>
-               Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-             </p>
-             </ion-footer>
+
            </ion-content>
                   
             
