@@ -1,12 +1,9 @@
-class EventsPage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        this.innerHTML = ` <ion-app>
+class EventsPage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = ` <ion-app>
     
                 
         <ion-header>
@@ -198,8 +195,8 @@ class EventsPage extends HTMLElement
                 
              </div>
              </ion-content>
-     </ion-app>`
-    }
+     </ion-app>`;
+	}
 }
 
-customElements.define('events-page', EventsPage)
+customElements.define('events-page', EventsPage);

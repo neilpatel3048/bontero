@@ -7,7 +7,8 @@ class SearchPage extends HTMLElement
     connectedCallback()
     {
         console.log(`Hey I'am gome and  my checkout are wet!!`);
-        this.innerHTML =`     
+        this.innerHTML = `     
+        <ion-app>
             <ion-content color="primary"> 
                 <div class="btncancel" style="background-color: #ffca36">
                   
@@ -39,9 +40,9 @@ class SearchPage extends HTMLElement
                 <a class="searchtext" href="productdescription.html"> Shampoo</a>
             </div>    
             </ion-content>
-        `
-    }
+    </ion-app>
+        `;
+	}
 }
-
 
 customElements.define('search-page', SearchPage);

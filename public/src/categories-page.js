@@ -7,7 +7,44 @@ class Categoriespage extends HTMLElement
     connectedCallback()
     {
         
-        this.innerHTML =`
+        this.innerHTML =
+       `<ion-app>
+
+      
+        <ion-menu side="start" menu-id="first">
+          <ion-header>
+            <ion-toolbar color="secondary">
+              <ion-title>Start Menu</ion-title>
+            </ion-toolbar>
+          </ion-header>
+        </ion-menu>
+            <!--Coding starts here-->
+        <ion-header>
+          <ion-toolbar color="primary">
+            <!--Icon on left of bontero-->
+            <ion-buttons slot="start">
+              <ion-button>
+                <ion-icon name="menu" color="tertiary"></ion-icon>
+              </ion-button>
+              <ion-button>
+                <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+              </ion-button>
+            </ion-buttons>   
+            <!--Icon on right of bontero-->    
+              <ion-title color="tertiary">BONTERO</ion-title>    
+            <!--Icon on left of bontero-->       
+                <ion-buttons slot="end">
+                  <ion-button color="tertiary">
+                    <ion-icon slot="icon-only" name="contact"></ion-icon>
+                  </ion-button>
+                  <ion-button color="tertiary">
+                    <ion-icon name="cart"></ion-icon>
+                  </ion-button>
+                </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+    
+>>>>>>> master
        <ion-content>
         
          <!-- Here starts the picture with the text above it -->
@@ -140,4 +177,4 @@ class Categoriespage extends HTMLElement
     }
 }
 
-customElements.define('categories-page', Categoriespage)
+customElements.define('categories-page', Categoriespage);

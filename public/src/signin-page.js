@@ -6,7 +6,6 @@ class SignIn extends HTMLElement
     }
     connectedCallback()
     {
-        console.log(`Hey I'am gome and  my cart are wet!!`);
         this.innerHTML =`<ion-content >
 
         <div padding>
@@ -60,8 +59,9 @@ class SignIn extends HTMLElement
                   <br>Accounts allow you to check out faster.
               </p>
           </div>
-          <ion-button padding expand="block" color="secondary">Checkout as guest</ion-button>`
+          <ion-button padding expand="block" color="secondary">Checkout as guest</ion-button>
+          </ion-content>`
     }
 }
 
-customElements.define('signin-page', SignIn)
+customElements.define('signin-page', SignIn);
