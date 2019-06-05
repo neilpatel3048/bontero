@@ -43,11 +43,11 @@ class EventsPage extends HTMLElement
         <div class="details">
             <h4>Details</h4>
             <br>
-            <h5>Join us as we get together on our monthly clean up of San Sebastia beach. We want to keep our beach beautiful and special for locals and visitors to this beautiful part of town! Come for a few hours to clean, meet new friends, and enjoy some refreshments afterwards. </h5>
+            <p>Join us as we get together on our monthly clean up of San Sebastia beach. We want to keep our beach beautiful and special for locals and visitors to this beautiful part of town! Come for a few hours to clean, meet new friends, and enjoy some refreshments afterwards. </p>
             <br>
-            <h5>Note: Where comfortable clothes and sandals</h5>
+            <p>Note: Where comfortable clothes and sandals</p>
             <br>
-            <h5>See you there! </h5>
+            <p>See you there! </p>
         </div>
         <br>
         <hr style="height:1px; border:none; color:#000; background-color:#000; width:80%; text-align:center; margin: 0 auto;">
