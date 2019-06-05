@@ -31,7 +31,7 @@ class Categoriespage extends HTMLElement
        
        <!-- These are all the cards within the page-->
        <ion-card>
-            <img src="/assets/categoriespage/organicproduce.jpg" />
+            <img src="./assets/categoriespage/organicproduce.jpg" />
             <ion-card-header>
               <ion-card-title>Organic Produce</ion-card-title>
             </ion-card-header>
@@ -39,7 +39,7 @@ class Categoriespage extends HTMLElement
        
        
        <ion-card>
-            <img src="/assets/categoriespage/drygoods.jpg" />
+            <img src="./assets/categoriespage/drygoods.jpg" />
             <ion-card-header>
               <ion-card-title>Dry Goods</ion-card-title>
             </ion-card-header>
@@ -47,7 +47,7 @@ class Categoriespage extends HTMLElement
        
        
         <ion-card>
-            <img src="/assets/categoriespage/drinksanddairy.jpg" />
+            <img src="./assets/categoriespage/drinksanddairy.jpg" />
             <ion-card-header>
               <ion-card-title>Drinks and Dairy</ion-card-title>
             </ion-card-header>
@@ -55,7 +55,7 @@ class Categoriespage extends HTMLElement
        
        
        <ion-card>
-            <img src="/assets/categoriespage/homeandbeauty.jpg" />
+            <img src="./assets/categoriespage/homeandbeauty.jpg" />
             <ion-card-header>
               <ion-card-title>Home and Beauty</ion-card-title>
             </ion-card-header>
@@ -72,7 +72,7 @@ class Categoriespage extends HTMLElement
           <ion-row>
             <ion-col size="6">
               <ion-card class="cardpadding">
-                <img class= "imagesize" src="/assets/productspage/almonds.jpg" />
+                <img class= "imagesize" src="./assets/productspage/almonds.jpg" />
                   <ion-card-header class="productname">
                     <ion-card-title>Almonds</ion-card-title>
                   </ion-card-header>
@@ -84,7 +84,7 @@ class Categoriespage extends HTMLElement
             
          <ion-col size="6">
           <ion-card class="cardpadding">
-            <img class="imagesize" src="/assets/productspage/cottonproducebag.jpg" />
+            <img class="imagesize" src="./assets/productspage/cottonproducebag.jpg" />
                <ion-card-header class="productname">  
                 <ion-card-title>Coton Bag</ion-card-title>
               </ion-card-header>       
@@ -107,7 +107,7 @@ class Categoriespage extends HTMLElement
           <ion-row>
             <ion-col size="6">
               <ion-card class="cardpadding">
-                <img class= "imagesize" src="/assets/productspage/almonds.jpg" />
+                <img class= "imagesize" src="./assets/productspage/almonds.jpg" />
                   <ion-card-header class="productname">
                     <ion-card-title>Almonds</ion-card-title>
                   </ion-card-header>
@@ -119,7 +119,7 @@ class Categoriespage extends HTMLElement
             
          <ion-col size="6">
           <ion-card class="cardpadding">
-            <img class="imagesize" src="/assets/productspage/cottonproducebag.jpg" />
+            <img class="imagesize" src="./assets/productspage/cottonproducebag.jpg" />
                <ion-card-header class="productname">  
                 <ion-card-title>Coton Bag</ion-card-title>
               </ion-card-header>       

@@ -53,20 +53,38 @@
             <ion-route url="/signin" component="signin-page"></ion-route>
         </ion-router>
 
-  <ion-header>
-    <ion-toolbar color="primary">
-     <ion-buttons slot="start">
-      <ion-button onclick="openNav()">         
-        <ion-icon name="menu" color="tertiary"></ion-icon>
-        </ion-button>
-      <ion-button>
-        <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-        </ion-button>
-      </ion-buttons>
-        <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
-          <ion-buttons slot="end">
-            <ion-button color="tertiary">
-              <ion-icon slot="icon-only" name="contact"></ion-icon>
+
+              <ion-header>
+      
+                <ion-toolbar color="primary">
+                  
+                  <!--Icon on left of bontero-->
+            <ion-buttons slot="start">
+              
+              
+              <ion-button>
+                
+                <ion-icon name="menu" color="tertiary"></ion-icon>
+              </ion-button>
+              
+              
+              <ion-button>
+                <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+                  
+            <!--Icon on right of bontero-->
+                  
+            <!--<ion-title color="tertiary">BONTERO</ion-title>-->
+
+            <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
+                  
+               <!--Icon on left of bontero-->    
+                  
+            <ion-buttons slot="end">
+              
+              <ion-button color="tertiary">
+                <ion-icon slot="icon-only" name="contact"></ion-icon>
               </ion-button>
               <ion-button color="tertiary">
                 <ion-icon name="cart"></ion-icon>
@@ -84,8 +102,14 @@
               <ion-icon class="media" name="logo-twitter" color="secondary" ></ion-icon>
               <ion-icon class="media" name="logo-youtube" color="secondary" ></ion-icon>
               </div>
+          </ion-toolbar>
+              </ion-header>
+       <ion-nav>
+
+        </ion-nav>
+        <ion-footer> 
                 <p>
-               Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
+               Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
              </p>
              </ion-footer> -->
 
@@ -104,34 +128,7 @@
    <!-- <a href="/home-page">Home Page 2</a>
     <a href="/categories-page">ads Page</a>
     <a href="/events-page">events-page Page</a>-->
-    <script>
-      if ("serviceWorker" in navigator) {
-        if (navigator.serviceWorker.controller) {
-          console.log("[PWA Builder] active service worker found, no need to register");
-        } else {
-    // Register the service worker
-      navigator.serviceWorker
-       .register("sw.js", {
-          scope: "./"
-        })
-      .then(function (reg) {
-          console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-       });
-     }
-    }
 
-    </script>
-
-  <script>
-  function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-
-  </script>
   </body>
 
 </html>

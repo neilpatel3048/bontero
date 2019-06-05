@@ -127,23 +127,46 @@ ion-title
 
 ion-grid
 {
-  padding-top : 16px;
-  padding-left : 16px;
-  padding-right : 16px;
- padding-bottom : 16px;
+ 
+ padding-bottom : 4vw;
 }
 
 .backarrow
 {
   width: 35px;
   height: 50px;
-  left: 10%;
+  left: 1em;
   right: 92.22%;
   top: 5.93%;
   bottom: 92.86%;
   padding: 0.8em;
 }
 
+ion-card-header
+{
+  margin: 0px;
+  padding: 8px;
+}
+
+ion-card-content
+{
+
+ padding-left :0px;
+}
+
+.place
+{
+  padding:0px;
+  margin-left: 2vw;
+}
+
+.date
+{
+  padding:0px;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+   
+}
 
 .orgheader
 {
@@ -166,30 +189,9 @@ ion-grid
 
 
 
-.productname
-{
-height: 42px;
-left: 0%;
-right: 41.03%;
-top: calc(50% - 22px/2 + 93.5px);
 
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
 
- font-size: 16px; 
-line-height: 22px;
 
-}
-
-.cancelprice
-{
-  height: 22px;
-  left: 0%;
-  
-  top: calc(50% - 22px/2 + 119.5px);
- 
-}  
 ion-title {
  top: 0;
   left: 0;
@@ -240,7 +242,8 @@ ion-title {
   
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".assets/homepage/homeheader.jpg");
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/homepage/homeheader.jpg");
   
     /* Set a specific height */
     height: 50%;
@@ -291,7 +294,7 @@ ion-title {
   .socialgroup{
     width: 100%;
     text-align:center;
-    font-size: 3vw;
+    font-size: 8vw;
     padding-left: 1em;
     padding-right: 1em;
     display: center;
@@ -381,20 +384,7 @@ ion-title {
       /* padding-bottom: 3px; */
     
   }
-  .productname {
-  height: 42px;
-left: 0%;
-right: 41.03%;
-top: calc(50% - 22px/2 + 93.5px);
-
-font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-
- font-size: 16px; 
-line-height: 22px;
-
-  }
+  
   
  /* .imagesize{
   left: 20%;
@@ -421,9 +411,12 @@ line-height: 22px;
 }
 
 
-  
+
+
+
+
   .lastprice{
-  height: 22px;
+ 
   left: 0%;
   right: 73.72%;
   top: calc(50% - 22px/2 + 119.5px);
@@ -493,7 +486,7 @@ background-color: #009E71;
   font-family: Avenir;
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 5vw;
 line-height: 24px;
 color: #D51236;
 }
@@ -758,45 +751,199 @@ ion-input {
     margin-top: 5em;
 }
 
-/* menu bar */
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #FFDD80;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+.progressbar
+{
+  margin-top:1em;
+  margin-bottom: 0.5em;
+  margin-left:0.5em;
+  margin-right: 0.5em;
+
+}
+
+.progressbarimg
+{
+  
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.cardproduct1
+{
+  background: #FFDD80;
+ 
+    
+    width: 100%;
+    height: 140px;
+    margin-top:0.4em;
+    margin-bottom: 0.4em;
+    margin-right: 0.4em;
+    margin-left: 0.4em; 
+
+}
+
+.cardproduct2
+{
+  background: #FFDD80;
+ 
+   
+    width: 100%;
+    height: 140px;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+    margin-right: 0.4em;
+    margin-left: 0.4em; 
+
+}
+
+.imagesizecart
+{
+
+  height: 58px;
+  width: 56px;
+}
+
+.col2cart
+{
+
+ margin-left: 4px; 
+ align-items: center; 
+}
+
+.btnsizecart1
+{
+  width:30px;
+}
+.btnsizecart2
+{
+  width:30px;
+}
+
+
+.inputcart
+{
+  height: 50px;
+  width: 30px;
+}
+
+
+.cartprice
+{
+  margin-top: 1em;
+}
+
+
+.promocode
+{
+  margin-top : 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width :200px;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 2px solid #000000;
+}
+
+.col2promo
+{
+  align-items: center; 
+
+}
+
+.btnpromo
+{
+  height:50px;
+  width : 120px;
+}
+
+
+.toolbarpadl
+{
+  margin-left: 1em;
   font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+  
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #000000;
-  display: block;
-  transition: 0.3s;
+.toolbarpadr
+{
+  font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+  margin-right: 1em;
+  
 }
 
-.sidenav a:hover {
-  color: #009E71;
+.btnquickpay
+{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  height: 48px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+.btncheckout
+{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  height: 48px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.backarrow1
+{
+  width: 35px;
+  height: 50px;
 }
 
-/* end of menu bar */
+
+
+.socialgroup1{
+  width: 100%;
+  height : 100%;
+  text-align:center;
+  font-size: 8vw;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: center;
+  justify-content: center;
+  left: 0;
+
+  }
+
+  p.pfooter
+  {
+    margin: 0px;
+  }
+
+
+  .smallfont
+  {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 5vw;
+  }
+  
+  .smallfont1
+  {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 5vw;  
+    font-weight: 800;
+  }

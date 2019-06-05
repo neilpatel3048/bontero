@@ -73,7 +73,7 @@ class HomePage extends HTMLElement
          <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
          <ion-card-header class="productname">
        
-           <ion-card-title>Avocado</ion-card-title>
+           <ion-card-title class="smallfont1">Avocado</ion-card-title>
          </ion-card-header>
             
          <ion-card-content class="cancelprice">
@@ -93,7 +93,7 @@ class HomePage extends HTMLElement
          <img class="imagesize" src="./assets/productspage/soap.jpg" />
         <ion-card-header class="productname">
        
-           <ion-card-title>Soap</ion-card-title>
+           <ion-card-title class="smallfont1">Soap</ion-card-title>
          </ion-card-header>
             
          <ion-card-content class="cancelprice">
@@ -125,7 +125,7 @@ class HomePage extends HTMLElement
              <img class= "imagesize" src="./assets/eventspage/cleaningbeach.jpeg" />
              <ion-card-header class="productname">
            
-               <ion-card-title>Clean Beach</ion-card-title>
+               <ion-card-title  class="smallfont">Clean Beach</ion-card-title>
              </ion-card-header>
                 
              <ion-card-content class="date">
@@ -145,7 +145,7 @@ class HomePage extends HTMLElement
              <img class="imagesize" src="./assets/eventspage/events_planting.jpg" />
             <ion-card-header class="productname">
            
-               <ion-card-title>Plant trees</ion-card-title>
+               <ion-card-title  class="smallfont">Plant trees</ion-card-title>
              </ion-card-header>
                 
              <ion-card-content class="date">
@@ -167,6 +167,7 @@ class HomePage extends HTMLElement
                Featured Events
              </h2>
            </div>
+
            
      </ion-content>
      

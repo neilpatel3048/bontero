@@ -8,7 +8,7 @@ const getFn = (request, response) => {
     .on("value", (data) => {
         response.send(data.val());
     });
-;}
+}
 
 const searchFn = (req, res) => {
     const search = req.body.search;

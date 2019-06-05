@@ -46,7 +46,7 @@ class ProductImpact extends HTMLElement
              <div class="productdesc">
        
                <ion-card class="imagesizepd">
-                 <img class= "imagesize" src="/assets/productspage/avocado.jpg" />
+                 <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
                </ion-card>
                  <div class= "pdproductdetail">
        
