@@ -3,18 +3,10 @@ class Categoriespage extends HTMLElement {
 		super();
 	}
 	connectedCallback() {
-		this.innerHTML = `<ion-app>
+		this.innerHTML = `
 
       
-        <ion-menu side="start" menu-id="first">
-          <ion-header>
-            <ion-toolbar color="secondary">
-              <ion-title>Start Menu</ion-title>
-            </ion-toolbar>
-          </ion-header>
-        </ion-menu>
-            <!--Coding starts here-->
-        <ion-header>
+      
           <ion-toolbar color="primary">
             <!--Icon on left of bontero-->
             <ion-buttons slot="start">
