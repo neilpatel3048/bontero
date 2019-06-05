@@ -1,13 +1,10 @@
-class CartPage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        console.log(`Welcome to the cart`);
-        this.innerHTML =` <ion-app>
+class CartPage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		console.log(`Welcome to the cart`);
+		this.innerHTML = ` <ion-app>
 
       
         <ion-menu side="start" menu-id="first">
@@ -83,8 +80,8 @@ class CartPage extends HTMLElement
                </ion-footer>
   
         </ion-content>
-      </ion-app>`
-    }
+      </ion-app>`;
+	}
 }
 
-customElements.define('cart-page', CartPage)
+customElements.define('cart-page', CartPage);

@@ -1,13 +1,9 @@
-class Categoriespage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        
-        this.innerHTML =`<ion-app>
+class Categoriespage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = `<ion-app>
 
       
         <ion-menu side="start" menu-id="first">
@@ -180,8 +176,8 @@ class Categoriespage extends HTMLElement
        
       </div> 
         </ion-content>
-      </ion-app>`
-    }
+      </ion-app>`;
+	}
 }
 
-customElements.define('categories-page', Categoriespage)
+customElements.define('categories-page', Categoriespage);

@@ -1,13 +1,9 @@
-class HomePage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        
-         this.innerHTML =` <ion-app>
+class HomePage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = ` <ion-app>
          <ion-header>
        
            <ion-toolbar color="primary">
@@ -220,12 +216,11 @@ class HomePage extends HTMLElement
            
      </ion-content>
      
-     </ion-app>`
-
-    }
+     </ion-app>`;
+	}
 }
 
-customElements.define('home-page', HomePage)
+customElements.define('home-page', HomePage);
 //connectedCallback
 //disconnectedCallback
 //attributedChangedCallback

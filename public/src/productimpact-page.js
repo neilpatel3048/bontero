@@ -1,13 +1,9 @@
-class ProductImpact extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        
-         this.innerHTML =`<ion-app>
+class ProductImpact extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = `<ion-app>
         
         
          <ion-menu side="start" menu-id="first">
@@ -132,12 +128,11 @@ class ProductImpact extends HTMLElement
             
           </div>
         
-          </ion-app>`
-
-    }
+          </ion-app>`;
+	}
 }
 
-customElements.define('productimpact-page', ProductImpact)
+customElements.define('productimpact-page', ProductImpact);
 //connectedCallback
 //disconnectedCallback
 //attributedChangedCallback
