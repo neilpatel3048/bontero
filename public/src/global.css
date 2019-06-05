@@ -758,8 +758,8 @@ ion-input {
 }
 
 .eventDescHead{
-  background-image: url("/assets/eventspage/cleaningbeach.jpeg");
-  height: 25%;
+  background-image: url(../assets/eventspage/cleaningbeach.jpeg);
+  height: 12em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
