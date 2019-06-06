@@ -4,33 +4,6 @@ class Categoriespage extends HTMLElement {
 	}
 	connectedCallback() {
 		this.innerHTML = `
-
-      
-      
-          <ion-toolbar color="primary">
-            <!--Icon on left of bontero-->
-            <ion-buttons slot="start">
-              <ion-button>
-                <ion-icon name="menu" color="tertiary"></ion-icon>
-              </ion-button>
-              <ion-button>
-                <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-              </ion-button>
-            </ion-buttons>   
-            <!--Icon on right of bontero-->    
-              <ion-title color="tertiary">BONTERO</ion-title>    
-            <!--Icon on left of bontero-->       
-                <ion-buttons slot="end">
-                  <ion-button color="tertiary">
-                    <ion-icon slot="icon-only" name="contact"></ion-icon>
-                  </ion-button>
-                  <ion-button color="tertiary">
-                    <ion-icon name="cart"></ion-icon>
-                  </ion-button>
-                </ion-buttons>
-          </ion-toolbar>
-        </ion-header>
-    
        <ion-content>
         
          <!-- Here starts the picture with the text above it -->
@@ -155,20 +128,9 @@ class Categoriespage extends HTMLElement {
        </ion-grid> 
        <!-- Here finishes the part for the products showcased in category-->
        
-       
-       <!-- Here is the code for the social media buttons--> 
-        <div class="socialgroup">
-          <ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
-          <ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
-          <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
-          <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
-        </div>
-       
-       
-       
       </div> 
-        </ion-content>
-      </ion-app>`;
+      <footer-element></footer-element>
+        </ion-content>`;
 	}
 }
 

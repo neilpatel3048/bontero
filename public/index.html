@@ -25,6 +25,7 @@
    <script src="./src/registration-page.js"></script>
    <script src="./src/signin-page.js"></script>
    <script src="./src/side-menu.js"></script>
+   <script src="./src/eventdescription-page.js"></script>
  
     <!-- import the CSS file -->
    <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
@@ -38,14 +39,14 @@
         <ion-router>  
             <ion-route url="/" component="home-page"></ion-route>
             <ion-route url="/home" component="home-page"></ion-route>
-           <ion-route url="/search" component="search-page"></ion-route> 
+            <ion-route url="/search" component="search-page"></ion-route> 
             <ion-route url="/categories" component="categories-page"></ion-route>
             <ion-route url="/categories/:category/:id" component="categories-page"></ion-route>
             <ion-route url="/organicproducts" component="organicproducts-page"></ion-route>
             <ion-route url="/productdescription/:id" component="productdescription-page"></ion-route>
             <ion-route url="/productimpact/:id" component="productimpact-page"></ion-route>
             <ion-route url="/events" component="events-page"></ion-route>
-            <ion-route url="/events/:description/:id" component="events-page"></ion-route>
+            <ion-route url="/events/:description/:id" component="eventdescription-page"></ion-route>
             <ion-route url="/cart" component="cart-page"></ion-route>
             <ion-route url="/checkout" component="checkout-page"></ion-route>
             <ion-route url="/registration" component="registration-page"></ion-route>

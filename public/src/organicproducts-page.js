@@ -5,8 +5,6 @@ class OrganicProducts extends HTMLElement {
 	connectedCallback() {
 		console.log(`Welcome to the Products`);
 		this.innerHTML = `
-        
-        
         <ion-menu side="start" menu-id="first">
           <ion-header>
             <ion-toolbar color="primary">
@@ -20,43 +18,7 @@ class OrganicProducts extends HTMLElement {
               
               
               <!--Coding starts here-->
-        <div class="ion-page" main>
-          <ion-header>
-            <ion-toolbar color="primary">
-              
-              <!--Icon on left of bontero-->
-        <ion-buttons slot="start">
-          
-          
-          <ion-button>
-            
-            <ion-icon name="menu" color="tertiary"></ion-icon>
-          </ion-button>
-          
-          
-          <ion-button>
-            <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-          </ion-button>
-        </ion-buttons>
-              
-        <!--Icon on right of bontero-->
-              
-        <ion-title color="tertiary">BONTERO</ion-title>
-              
-           <!--Icon on left of bontero-->    
-              
-        <ion-buttons slot="end">
-          
-          <ion-button color="tertiary">
-            <ion-icon slot="icon-only" name="contact"></ion-icon>
-          </ion-button>
-          
-          <ion-button color="tertiary">
-            <ion-icon name="cart"></ion-icon>
-          </ion-button>
-        </ion-buttons>
-      </ion-toolbar>
-          </ion-header>
+
           
           <!---body starts here-->
           
@@ -262,11 +224,9 @@ class OrganicProducts extends HTMLElement {
              
             </ion-grid> 
             
-             
+             <footer-element></footer-element>
            </ion-content>
-          
-            <!---body ends here-->
-        </div>
+
           `;
 	}
 }
