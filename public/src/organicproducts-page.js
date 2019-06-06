@@ -4,7 +4,7 @@ class OrganicProducts extends HTMLElement {
 	}
 	connectedCallback() {
 		console.log(`Welcome to the Products`);
-		this.innerHTML = `<ion-app>
+		this.innerHTML = `
         
         
         <ion-menu side="start" menu-id="first">
@@ -262,24 +262,12 @@ class OrganicProducts extends HTMLElement {
              
             </ion-grid> 
             
-            
-            
-                 <!----------------------------------------------------------------> 
-            
-            <ion-footer> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
              
            </ion-content>
           
             <!---body ends here-->
         </div>
-              
-            
-         
-            </ion-app>`;
+          `;
 	}
 }
 

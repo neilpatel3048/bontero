@@ -3,9 +3,7 @@ class Productdesc extends HTMLElement {
 		super();
 	}
 	connectedCallback() {
-		this.innerHTML = ` <ion-app>
-        
-        
+		this.innerHTML = `
         <ion-menu side="start" menu-id="first">
           <ion-header>
             <ion-toolbar color="primary">
@@ -116,18 +114,11 @@ class Productdesc extends HTMLElement {
               Produced in: Malaga, Spain by La Nucia Farms
             </p>
         
-            
-             <ion-footer color="primary"> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
           </ion-content>
                  
            
          </div>
-         <br><br>
-      </ion-app>`;
+         <br><br>`;
 	}
 }
 
