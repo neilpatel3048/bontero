@@ -10,9 +10,9 @@ class SearchPage extends HTMLElement {
             <ion-content color="primary"> 
                 <div class="btncancel" style="background-color: #ffca36">
                   
-                        <ion-buttons  slot="end">
+                        <ion-buttons  slot="end" >
             
-                                <ion-button href="home.html" color="tertiary">
+                                <ion-button  color="tertiary" href="/home">
                                         <ion-icon name="close"></ion-icon>
                          </ion-button>
                         </ion-buttons>
