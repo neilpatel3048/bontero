@@ -17,12 +17,12 @@ module.exports = {
 
 };
 
-const admin = require('firebase-admin');
-admin.initializeApp();
+
+//admin.initializeApp();
 
 
-const blog = require('./apis/blogs');
-const categories = require('./apis/categories');
+const blog = require('./api/blogs');
+const categories = require('./api/categories');
 
 module.exports = {
     getBlog: functions.https.onRequest(blog.get),

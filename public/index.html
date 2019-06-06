@@ -11,7 +11,8 @@
     <!-- import the webpage's javascript file -->
     <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
    <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
-
+   <script src="./src/index.js"> </script>
+   <script src="./src/footer-element.js"></script>
    <script src="./src/home-page.js"></script>
    <script src="./src/search-page.js"></script>
    <script src="./src/categories-page.js"></script>
@@ -23,6 +24,7 @@
    <script src="./src/productimpact-page.js"></script>
    <script src="./src/registration-page.js"></script>
    <script src="./src/signin-page.js"></script>
+   <script src="./src/side-menu.js"></script>
  
     <!-- import the CSS file -->
    <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
@@ -30,7 +32,7 @@
   
   <body>
       
-       
+       <side-menu></side-menu>
     <ion-app>
         
         <ion-router>  
@@ -46,7 +48,6 @@
             <ion-route url="/events/:description/:id" component="events-page"></ion-route>
             <ion-route url="/cart" component="cart-page"></ion-route>
             <ion-route url="/checkout" component="checkout-page"></ion-route>
-
             <ion-route url="/registration" component="registration-page"></ion-route>
             <ion-route url="/signin" component="signin-page"></ion-route>
         </ion-router>
@@ -59,7 +60,7 @@
             <ion-buttons slot="start">
               
               
-              <ion-button>
+              <ion-button onclick="menuToggle()">
                 
                 <ion-icon name="menu" color="tertiary"></ion-icon>
               </ion-button>
@@ -74,7 +75,7 @@
                   
             <!--<ion-title color="tertiary">BONTERO</ion-title>-->
 
-            <ion-title><img class="logosize" src="/assets/bonterologo.svg" alt="Bontero"></ion-title>
+            <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
                   
                <!--Icon on left of bontero-->    
                   
@@ -90,45 +91,32 @@
             </ion-buttons>
           </ion-toolbar>
               </ion-header>
--->        <ion-nav>
+       <ion-nav>
 
         </ion-nav>
-        
+
+       
+  
+     
+     
+        <!-- <ion-footer> 
+          <h4 class="connectwithus">
+            Connect with us
+          </h4>
+          <div class="socialgroup">
+            <ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
+            <ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
+            <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
+            <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
+          </div>
           
-        <ion-footer> 
-            <h3 class="connectwithus">Connect With Us</h3>
-            <div class="socialgroup">
-              <ion-icon class="media" name="logo-facebook" color="secondary" ></ion-icon>
-              <ion-icon class="media" name="logo-instagram" color="secondary" ></ion-icon>
-              <ion-icon class="media" name="logo-twitter" color="secondary" ></ion-icon>
-              <ion-icon class="media" name="logo-youtube" color="secondary" ></ion-icon>
-              </div>
-                <p>
-               Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-             </p>
-             </ion-footer>
+              <p>
+             Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
+           </p>
+          </ion-footer> -->
+          
     </ion-app>
 
-   <!-- <a href="/home-page">Home Page 2</a>
-    <a href="/categories-page">ads Page</a>
-    <a href="/events-page">events-page Page</a>-->
-    <script>
-      if ("serviceWorker" in navigator) {
-        if (navigator.serviceWorker.controller) {
-          console.log("[PWA Builder] active service worker found, no need to register");
-        } else {
-    // Register the service worker
-      navigator.serviceWorker
-       .register("sw.js", {
-          scope: "./"
-        })
-      .then(function (reg) {
-          console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-       });
-     }
-    }
-
-    </script>
   </body>
 
 </html>

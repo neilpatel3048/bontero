@@ -1,39 +1,9 @@
-class EventsPage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        this.innerHTML = ` <ion-app>
-    
-                
-        <ion-header>
-          <ion-toolbar color="primary">
-              <!--Icon on left of bontero-->
-           <ion-buttons slot="start">
-               <ion-button>
-                   <ion-icon name="menu" color="tertiary"></ion-icon>
-               </ion-button>
-               <ion-button>
-                   <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-               </ion-button>
-               </ion-buttons>
-                 <!--Icon on right of bontero-->  
-               <ion-title color="tertiary">BONTERO</ion-title>  
-                   <!--Icon on left of bontero-->        
-                 <ion-buttons slot="end">
-                   <ion-button color="tertiary">
-                     <ion-icon slot="icon-only" name="contact"></ion-icon>
-                   </ion-button>
-                   <ion-button color="tertiary">
-                     <ion-icon name="cart"></ion-icon>
-                   </ion-button>
-                 </ion-buttons>
-               </ion-toolbar>
-                   </ion-header>
-                 
+class EventsPage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = `
                  <ion-content>
                    
                    <!-- Here starts the picture with the text above it -->
@@ -70,7 +40,7 @@ class EventsPage extends HTMLElement
                 
                 <!-- These are all the cards within the page-->
                    <ion-card>
-                     <ion-img src="/assets/eventspage/cleaningbeach.jpeg"></ion-img>
+                     <ion-img src="./assets/eventspage/cleaningbeach.jpeg"></ion-img>
                      <ion-card-header>
                           <ion-card-subtitle>May 10, Friday 10:00 at Barcelonneta</ion-card-subtitle> 
                            <ion-card-title>Cleaning Beach Day</ion-card-title>
@@ -102,7 +72,7 @@ class EventsPage extends HTMLElement
                 
                  <ion-card>
                      <ion-card-header>
-                       <ion-img src="/assets/eventspage/events_planting.jpg"></ion-img>
+                       <ion-img src="./assets/eventspage/events_planting.jpg"></ion-img>
                           <ion-card-subtitle>May 15, Wednesday  16:00 at Parc Ciutadella</ion-card-subtitle> 
                            <ion-card-title>Cituadella’s 200th celebration </ion-card-title>
                      </ion-card-header>
@@ -132,7 +102,7 @@ class EventsPage extends HTMLElement
                 
                   <ion-card>
                      <ion-card-header>
-                       <ion-img src="/assets/eventspage/events_planting(1).jpg"></ion-img>
+                       <ion-img src="./assets/eventspage/events_planting(1).jpg"></ion-img>
                           <ion-card-subtitle>June 2, Sunday  10:00 Plaza Gracia</ion-card-subtitle> 
                            <ion-card-title>Help us make the Plaza Gracia look pretty!</ion-card-title>
                      </ion-card-header>
@@ -160,7 +130,7 @@ class EventsPage extends HTMLElement
                 
                      <ion-card>
                      <ion-card-header>
-                       <ion-img src="/assets/eventspage/teacherclass.jpg"></ion-img>
+                       <ion-img src="./assets/eventspage/teacherclass.jpg"></ion-img>
                           <ion-card-subtitle>June 7, Friday  14:00 at Escola Sant Felip Neri</ion-card-subtitle> 
                            <ion-card-title>Tutor kids on how to reduce, reuse, recycle</ion-card-title>
                      </ion-card-header>
@@ -185,26 +155,10 @@ class EventsPage extends HTMLElement
                      </ion-card-content>
                    </ion-card>
                 <!--  End of all the diferent cards-->
-                
-                <!-- Code for the social media buttons--> 
-                 <div class="socialgroup">
-                   <ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
-                   <ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
-                   <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
-                   <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
-                 </div>
-                
-                
-                
+
              </div>
-             <ion-footer> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
-             </ion-content>
-     </ion-app>`
-    }
+             </ion-content>`;
+	}
 }
 
-customElements.define('events-page', EventsPage)
+customElements.define('events-page', EventsPage);

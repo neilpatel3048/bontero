@@ -1,50 +1,9 @@
-class HomePage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        
-         this.innerHTML =` <ion-app>
-         <ion-header>
-       
-           <ion-toolbar color="primary">
-             
-             <!--Icon on left of bontero-->
-       <ion-buttons slot="start">
-         
-         
-         <ion-button>
-           
-           <ion-icon name="menu" color="tertiary"></ion-icon>
-         </ion-button>
-         
-         
-         <ion-button>
-           <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-         </ion-button>
-       </ion-buttons>
-             
-       <!--Icon on right of bontero-->
-             
-       <ion-title color="tertiary">BONTERO</ion-title>
-             
-          <!--Icon on left of bontero-->    
-             
-       <ion-buttons slot="end">
-         
-         <ion-button color="tertiary">
-           <ion-icon slot="icon-only" name="contact"></ion-icon>
-         </ion-button>
-         
-         <ion-button color="tertiary">
-           <ion-icon name="cart"></ion-icon>
-         </ion-button>
-       </ion-buttons>
-     </ion-toolbar>
-         </ion-header>
+class HomePage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = ` 
          <ion-content>
            <div class="hero-image">
        <div class="hero-text">
@@ -61,7 +20,7 @@ class HomePage extends HTMLElement
            </div>
            
            <div class="container">
-       <img src="/assets/homepage/freshproduce.jpg">
+       <img src="./assets/homepage/freshproduce.jpg">
        <div class="text-block">
          <h4>Shop our products</h4>
          <ion-icon name="arrow-dropright"></ion-icon>
@@ -69,14 +28,14 @@ class HomePage extends HTMLElement
      </div>
            
                <div class="container">
-                 <img src="/assets/homepage/volunteer.jpg">
+                 <img src="./assets/homepage/volunteer.jpg">
                  <div class="text-block"> 
          <h4>Volunteer at local event</h4>
        </div>
      </div>
            
                  <div class="container">
-                   <img src="/assets/homepage/blog_recycle.jpg">
+                   <img src="./assets/homepage/blog_recycle.jpg">
                    <div class="text-block"> 
          <h4>Read our blog</h4>
        </div>
@@ -89,7 +48,7 @@ class HomePage extends HTMLElement
            </div>
            
            <div class="container">
-             <img src="/assets/homepage/seed.jpg" style="width:100%;">
+             <img src="./assets/homepage/seed.jpg" style="width:100%;">
              <div class="text-block"> 
          <h4>Our mission and vision</h4>
        </div>
@@ -107,10 +66,10 @@ class HomePage extends HTMLElement
        <ion-row>
          <ion-col size="6">
            <ion-card class="cardpadding">
-         <img class= "imagesize" src="/assets/productspage/avocado.jpg" />
+         <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
          <ion-card-header class="productname">
        
-           <ion-card-title>Avocado</ion-card-title>
+           <ion-card-title class="smallfont1">Avocado</ion-card-title>
          </ion-card-header>
             
          <ion-card-content class="cancelprice">
@@ -127,10 +86,10 @@ class HomePage extends HTMLElement
          
           <ion-col size="6">
            <ion-card class="cardpadding">
-         <img class="imagesize" src="/assets/productspage/soap.jpg" />
+         <img class="imagesize" src="./assets/productspage/soap.jpg" />
         <ion-card-header class="productname">
        
-           <ion-card-title>Soap</ion-card-title>
+           <ion-card-title class="smallfont1">Soap</ion-card-title>
          </ion-card-header>
             
          <ion-card-content class="cancelprice">
@@ -159,10 +118,10 @@ class HomePage extends HTMLElement
            <ion-row>
              <ion-col size="6">
                <ion-card class="cardpadding">
-             <img class= "imagesize" src="/assets/eventspage/cleaningbeach.jpeg" />
+             <img class= "imagesize" src="./assets/eventspage/cleaningbeach.jpeg" />
              <ion-card-header class="productname">
            
-               <ion-card-title>Clean Beach</ion-card-title>
+               <ion-card-title  class="smallfont">Clean Beach</ion-card-title>
              </ion-card-header>
                 
              <ion-card-content class="date">
@@ -179,10 +138,10 @@ class HomePage extends HTMLElement
              
               <ion-col size="6">
                <ion-card class="cardpadding">
-             <img class="imagesize" src="/assets/eventspage/events_planting.jpg" />
+             <img class="imagesize" src="./assets/eventspage/events_planting.jpg" />
             <ion-card-header class="productname">
            
-               <ion-card-title>Plant trees</ion-card-title>
+               <ion-card-title  class="smallfont">Plant trees</ion-card-title>
              </ion-card-header>
                 
              <ion-card-content class="date">
@@ -198,38 +157,14 @@ class HomePage extends HTMLElement
             
            </ion-grid> 
            
-           
-           <div>
-             <h2>
-               Featured Events
-             </h2>
-           </div>
-     
-           
- 
-           <h4 class="connectwithus">
-             Connect with us
-           </h4>
-           <div class="socialgroup">
-             <ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
-             <ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
-             <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
-             <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
-           </div>
-           <ion-footer> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
-           
+           <footer-element></footer-element>           
      </ion-content>
-     
-     </ion-app>`
 
-    }
+     `;
+	}
 }
 
-customElements.define('home-page', HomePage)
+customElements.define('home-page', HomePage);
 //connectedCallback
 //disconnectedCallback
 //attributedChangedCallback

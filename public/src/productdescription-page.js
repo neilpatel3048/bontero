@@ -1,14 +1,9 @@
-class Productdesc extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        this.innerHTML =` <ion-app>
-        
-        
+class Productdesc extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = `
         <ion-menu side="start" menu-id="first">
           <ion-header>
             <ion-toolbar color="primary">
@@ -78,7 +73,7 @@ class Productdesc extends HTMLElement
             <div class="productdesc">
       
             <ion-card class="imagesizepd">
-            <img class= "imagesize" src="/assets/productspage/avocado.jpg" />
+            <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
           </ion-card>
                 <div class= "pdproductdetail">
                   <h1 class="pname"> Avocado</h1>
@@ -119,19 +114,12 @@ class Productdesc extends HTMLElement
               Produced in: Malaga, Spain by La Nucia Farms
             </p>
         
-            
-             <ion-footer color="primary"> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
           </ion-content>
                  
            
          </div>
-         <br><br>
-      </ion-app>`
-    }
+         <br><br>`;
+	}
 }
 
 customElements.define('productdescription-page', Productdesc);

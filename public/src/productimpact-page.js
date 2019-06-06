@@ -1,15 +1,9 @@
-class ProductImpact extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        
-         this.innerHTML =`<ion-app>
-        
-        
+class ProductImpact extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = `
          <ion-menu side="start" menu-id="first">
            <ion-header>
              <ion-toolbar color="primary">
@@ -79,7 +73,7 @@ class ProductImpact extends HTMLElement
              <div class="productdesc">
        
                <ion-card class="imagesizepd">
-                 <img class= "imagesize" src="/assets/productspage/avocado.jpg" />
+                 <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
                </ion-card>
                  <div class= "pdproductdetail">
        
@@ -120,24 +114,16 @@ class ProductImpact extends HTMLElement
                    La Nucia Farms is a family-owned business based in outskirts of Malaga. They are committed to producing the finest possible fresh vegetables and fruits which has been grown using the most sustainable methods. 
                    They are committed to operate in the most environmentally-friendly way possible. Their approach so far has produced fruits and vegetables that are fresher, tastier, and more nutritious!
              </p>
-               
-               <h1 href="aboutus.html">Connect with us</h1>    
-              <ion-footer color="primary"> 
-                <p>
-               Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-             </p>
-             </ion-footer>
            </ion-content>
                   
             
           </div>
         
-          </ion-app>`
-
-    }
+          `;
+	}
 }
 
-customElements.define('productimpact-page', ProductImpact)
+customElements.define('productimpact-page', ProductImpact);
 //connectedCallback
 //disconnectedCallback
 //attributedChangedCallback

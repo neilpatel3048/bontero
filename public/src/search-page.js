@@ -1,13 +1,10 @@
-class SearchPage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        console.log(`Hey I'am gome and  my checkout are wet!!`);
-        this.innerHTML =`     
+class SearchPage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		console.log(`Hey I'am gome and  my checkout are wet!!`);
+		this.innerHTML = `     
         <ion-app>
     
             <ion-content color="primary"> 
@@ -42,9 +39,8 @@ class SearchPage extends HTMLElement
             </div>    
             </ion-content>
     </ion-app>
-        `
-    }
+        `;
+	}
 }
-
 
 customElements.define('search-page', SearchPage);
