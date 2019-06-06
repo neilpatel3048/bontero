@@ -1,39 +1,9 @@
-class EventsPage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        this.innerHTML = ` <ion-app>
-    
-                
-        <ion-header>
-          <ion-toolbar color="primary">
-              <!--Icon on left of bontero-->
-           <ion-buttons slot="start">
-               <ion-button>
-                   <ion-icon name="menu" color="tertiary"></ion-icon>
-               </ion-button>
-               <ion-button>
-                   <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-               </ion-button>
-               </ion-buttons>
-                 <!--Icon on right of bontero-->  
-               <ion-title color="tertiary">BONTERO</ion-title>  
-                   <!--Icon on left of bontero-->        
-                 <ion-buttons slot="end">
-                   <ion-button color="tertiary">
-                     <ion-icon slot="icon-only" name="contact"></ion-icon>
-                   </ion-button>
-                   <ion-button color="tertiary">
-                     <ion-icon name="cart"></ion-icon>
-                   </ion-button>
-                 </ion-buttons>
-               </ion-toolbar>
-                   </ion-header>
-                 
+class EventsPage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = `
                  <ion-content>
                    
                    <!-- Here starts the picture with the text above it -->
@@ -185,26 +155,12 @@ class EventsPage extends HTMLElement
                      </ion-card-content>
                    </ion-card>
                 <!--  End of all the diferent cards-->
-                
-                <!-- Code for the social media buttons--> 
-                 <div class="socialgroup">
-                   <ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
-                   <ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
-                   <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
-                   <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
-                 </div>
-                
-                
-                
+
              </div>
-             <ion-footer> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
-             </ion-content>
-     </ion-app>`
-    }
+
+             <footer-element></footer-element>
+             </ion-content>`;
+	}
 }
 
-customElements.define('events-page', EventsPage)
+customElements.define('events-page', EventsPage);

@@ -1,15 +1,10 @@
-class OrganicProducts extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        console.log(`Welcome to the Products`);
-        this.innerHTML =`<ion-app>
-        
-        
+class OrganicProducts extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		console.log(`Welcome to the Products`);
+		this.innerHTML = `
         <ion-menu side="start" menu-id="first">
           <ion-header>
             <ion-toolbar color="primary">
@@ -23,43 +18,7 @@ class OrganicProducts extends HTMLElement
               
               
               <!--Coding starts here-->
-        <div class="ion-page" main>
-          <ion-header>
-            <ion-toolbar color="primary">
-              
-              <!--Icon on left of bontero-->
-        <ion-buttons slot="start">
-          
-          
-          <ion-button>
-            
-            <ion-icon name="menu" color="tertiary"></ion-icon>
-          </ion-button>
-          
-          
-          <ion-button>
-            <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-          </ion-button>
-        </ion-buttons>
-              
-        <!--Icon on right of bontero-->
-              
-        <ion-title color="tertiary">BONTERO</ion-title>
-              
-           <!--Icon on left of bontero-->    
-              
-        <ion-buttons slot="end">
-          
-          <ion-button color="tertiary">
-            <ion-icon slot="icon-only" name="contact"></ion-icon>
-          </ion-button>
-          
-          <ion-button color="tertiary">
-            <ion-icon name="cart"></ion-icon>
-          </ion-button>
-        </ion-buttons>
-      </ion-toolbar>
-          </ion-header>
+
           
           <!---body starts here-->
           
@@ -265,25 +224,11 @@ class OrganicProducts extends HTMLElement
              
             </ion-grid> 
             
-            
-            
-                 <!----------------------------------------------------------------> 
-            
-            <ion-footer> 
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
-             
+             <footer-element></footer-element>
            </ion-content>
-          
-            <!---body ends here-->
-        </div>
-              
-            
-         
-            </ion-app>`
-    }
+
+          `;
+	}
 }
 
-customElements.define('organicproducts-page', OrganicProducts)
+customElements.define('organicproducts-page', OrganicProducts);

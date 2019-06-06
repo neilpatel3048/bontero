@@ -1,50 +1,9 @@
-class HomePage extends HTMLElement
-{
-    constructor()
-    {
-        super();
-    }
-    connectedCallback()
-    {
-        
-         this.innerHTML =` <ion-app>
-         <ion-header>
-       
-           <ion-toolbar color="primary">
-             
-             <!--Icon on left of bontero-->
-       <ion-buttons slot="start">
-         
-         
-         <ion-button>
-           
-           <ion-icon name="menu" color="tertiary"></ion-icon>
-         </ion-button>
-         
-         
-         <ion-button>
-           <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-         </ion-button>
-       </ion-buttons>
-             
-       <!--Icon on right of bontero-->
-             
-       <ion-title color="tertiary">BONTERO</ion-title>
-             
-          <!--Icon on left of bontero-->    
-             
-       <ion-buttons slot="end">
-         
-         <ion-button color="tertiary">
-           <ion-icon slot="icon-only" name="contact"></ion-icon>
-         </ion-button>
-         
-         <ion-button color="tertiary">
-           <ion-icon name="cart"></ion-icon>
-         </ion-button>
-       </ion-buttons>
-     </ion-toolbar>
-         </ion-header>
+class HomePage extends HTMLElement {
+	constructor() {
+		super();
+	}
+	connectedCallback() {
+		this.innerHTML = ` 
          <ion-content>
            <div class="hero-image">
        <div class="hero-text">
@@ -198,34 +157,14 @@ class HomePage extends HTMLElement
             
            </ion-grid> 
            
-           
-          
-     
-           
-           <ion-footer> 
-           <h4 class="connectwithus">
-             Connect with us
-           </h4>
-           <div class="socialgroup">
-             <ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
-             <ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
-             <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
-             <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
-           </div>
-           
-               <p>
-              Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
-            </p>
-            </ion-footer>
-           
+           <footer-element></footer-element>           
      </ion-content>
-     
-     </ion-app>`
 
-    }
+     `;
+	}
 }
 
-customElements.define('home-page', HomePage)
+customElements.define('home-page', HomePage);
 //connectedCallback
 //disconnectedCallback
 //attributedChangedCallback
