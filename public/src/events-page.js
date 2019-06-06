@@ -157,6 +157,8 @@ class EventsPage extends HTMLElement {
                 <!--  End of all the diferent cards-->
 
              </div>
+
+             <footer-element></footer-element>
              </ion-content>`;
 	}
 }

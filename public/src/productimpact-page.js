@@ -4,54 +4,15 @@ class ProductImpact extends HTMLElement {
 	}
 	connectedCallback() {
 		this.innerHTML = `
-         <ion-menu side="start" menu-id="first">
+          <ion-menu side="start" menu-id="first">
            <ion-header>
              <ion-toolbar color="primary">
                <ion-title>Start Menu</ion-title>
              </ion-toolbar>
            </ion-header>
-           </ion-menu>
+           </ion-menu> 
                
-               
-               
-               
-               <!--Coding starts here-->
-         <div class="ion-page" main>
-           <ion-header>
-         <ion-toolbar color="primary">
-               
-                 <!--Icon on left of bontero-->
-               <ion-buttons slot="start">
-                 <ion-button>
-                   <ion-icon name="menu" color="tertiary"></ion-icon>
-                 </ion-button>
-                 
-                 <ion-button>
-                   <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
-                 </ion-button>
-               </ion-buttons>
-       
-               <!--Icon on right of bontero-->
-       
-               <ion-title color="tertiary">BONTERO</ion-title>
-       
-                  <!--Icon on left of bontero-->    
-       
-               <ion-buttons slot="end">
-       
-                 <ion-button color="tertiary">
-                   <ion-icon slot="icon-only" name="contact"></ion-icon>
-                 </ion-button>
-       
-                 <ion-button color="tertiary">
-                   <ion-icon name="cart"></ion-icon>
-                 </ion-button>
-                 
-               </ion-buttons>
-           </ion-toolbar>
-           </ion-header>
-           
-           <!---body starts here-->
+         
            <ion-content >
              
               
@@ -114,11 +75,11 @@ class ProductImpact extends HTMLElement {
                    La Nucia Farms is a family-owned business based in outskirts of Malaga. They are committed to producing the finest possible fresh vegetables and fruits which has been grown using the most sustainable methods. 
                    They are committed to operate in the most environmentally-friendly way possible. Their approach so far has produced fruits and vegetables that are fresher, tastier, and more nutritious!
              </p>
+
+             <footer-element></footer-element>
+
            </ion-content>
                   
-            
-          </div>
-        
           `;
 	}
 }
