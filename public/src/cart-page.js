@@ -100,7 +100,7 @@ class CartPage extends HTMLElement {
      
     <ion-toolbar >
    
-      <ion-lable class="toolbarpadl" slot="start">Subtsotal</ion-lable>
+      <ion-lable class="toolbarpadl" slot="start">Subtotal</ion-lable>
       <ion-lable class="toolbarpadr" slot="end">€ 10.20</ion-lable>
     </ion-toolbar>
 
