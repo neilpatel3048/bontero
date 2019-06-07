@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./src/global.css">
+    <!-- import the webpage's javascript file -->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+  </head>  
+  <body>
+    <ion-app>
+        <ion-header>
+      
+          <ion-toolbar color="primary">
+            
+            <!--Icon on left of bontero-->
+      <ion-buttons slot="start">
+        
+        
+        <ion-button>
+          
+          <ion-icon name="menu" color="tertiary"></ion-icon>
+        </ion-button>
+        
+        
+        <ion-button>
+          <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+            
+      <!--Icon on right of bontero-->
+            
+    <!--<ion-title color="tertiary">BONTERO</ion-title>-->
+
+    <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
+            
+         <!--Icon on left of bontero-->    
+            
+      <ion-buttons slot="end">
+        
+        <ion-button color="tertiary">
+          <ion-icon slot="icon-only" name="contact"></ion-icon>
+        </ion-button>
+        
+        <ion-button color="tertiary">
+          <ion-icon name="cart"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+        </ion-header>
+
+    <ion-content>
+      
+        <div class="confirmhelp">
+        <p> We currently only ship to continental Europe </p>
+  
+  </div>
+
+   <!--progress bar goes here-->   
+  
+   <!-- Thankyou card starts here -->
+  <ion-card>
+  <ion-card-header class="confirmthankshead">
+ <ion-icon name="md-checkmark-circle-outline" size="large" color="secondary"></ion-icon>
+    <ion-card-title>Thank you!</ion-card-title>
+    <ion-card-subtitle> Your purchase was successful <br> Confirmation email sent to abc@xyz.com </ion-card-subtitle>
+
+  </ion-card-header>
+
+  <ion-card-content class="orderdetails">
+Order number: #5439414 <br>
+Tracking delivery number: #5439414 <br>
+Delivery date: April 21, 2019 <br>
+4 items
+ </ion-card-content>
+<h5> Total Amount: 11.50€ </h5>
+  </ion-card>
+  
+   <!-- Rating card starts here -->
+
+  
+  <ion-card class="ratexp">
+
+   <p> Rate your experience
+    Help us improve our service!
+    </p>
+    <div class="starating"></div>
+    <ion-icon name="star" size="large" color="primary"></ion-icon>
+       <ion-icon name="star" size="large" color="primary"></ion-icon>
+       <ion-icon name="star" size="large" color="primary"></ion-icon>
+       <ion-icon name="star" size="large" color="primary"></ion-icon>
+       <ion-icon name="star" size="large" color="primary"></ion-icon>
+    </div>
+     <ion-item class="ratingcomments">
+        <ion-label position="floating">Comments</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+  <ion-button class="btnpromo" color="secondary"> Submit </ion-button>   
+  </ion-card>
+
+
+  <!-- footer starts here -->
+        <ion-footer> 
+            <h4 class="connectwithus">
+              Connect with us
+            </h4>
+            <div class="socialgroup">
+              <ion-icon class="socialmedia" name="logo-facebook" color="secondary"></ion-icon>
+              <ion-icon class="socialmedia" name="logo-instagram" color="secondary"></ion-icon>
+              <ion-icon class="socialmedia" name="logo-twitter" color="secondary"></ion-icon>
+              <ion-icon class="socialmedia" name="logo-youtube" color="secondary"></ion-icon>
+            </div>
+          
+                <p>
+               Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
+             </p>
+             </ion-footer>
+            
+      </ion-content>
+      
+      </ion-app>
+        </body>
+  <script src="./src/home.js"></script>
+  </html>

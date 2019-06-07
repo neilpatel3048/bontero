@@ -217,8 +217,8 @@ ion-title {
   } */
   
   .categories-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/categoriespage/shopveggies.jpg");
-    height: 25%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/categoriespage/shopveggies.jpg");
+    height: 30%;
     left: 0px;
     right: 0px;
     background-position: center;
@@ -228,8 +228,8 @@ ion-title {
   }
   
   .events-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/eventspage/volunteerfriends.jpg");
-    height: 25%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/eventspage/events_painting.jpg");
+    height: 30%;
     left: 0px;
     right: 0px;
     background-position: center;
@@ -241,12 +241,8 @@ ion-title {
   
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/homepage/homeheader.jpg");
-  
-    /* Set a specific height */
-    height: 50%;
-  
-    /* Position and center the image to scale nicely on all screens */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/homepage/homeheader.jpg");
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,6 +256,7 @@ ion-title {
     text-align: center;
     position: absolute;
     top: 50%;
+    margin-top: 2em;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -267,7 +264,7 @@ ion-title {
   }
   /* here*/
   .container1{
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 16px;
     margin-right: 16px;
   }
@@ -340,7 +337,7 @@ ion-title {
   
   .eventstext{
     background-color: #FFDD80;
-    margin-top: -50px;
+    margin-top: 60px;
     margin-left: -16px;
     margin-right: -16px;
   }
@@ -999,3 +996,36 @@ line-height: 22px;
     font-size: 5vw;  
     font-weight: 800;
   }
+
+  .confirmhelp
+  {
+    background-color: #FFDD80;
+  }
+
+  .confirmthankshead
+{
+align-content: center;
+align-items: center;
+text-align: center;
+}
+
+.orderdetails
+{
+text-align: left;
+align-content: left;
+align-items: left;
+}
+
+  .ratexp
+{
+  align-items: center;
+  background-color: #F57D3F;
+  font-display: white;
+}
+
+.ratingcomments
+{
+margin-left: 16px;
+margin-right: 16px;
+
+}
