@@ -999,3 +999,36 @@ line-height: 22px;
     font-size: 5vw;  
     font-weight: 800;
   }
+
+  .confirmhelp
+  {
+    background-color: #FFDD80;
+  }
+
+  .confirmthankshead
+{
+align-content: center;
+align-items: center;
+text-align: center;
+}
+
+.orderdetails
+{
+text-align: left;
+align-content: left;
+align-items: left;
+}
+
+  .ratexp
+{
+  align-items: center;
+  background-color: #F57D3F;
+  font-display: white;
+}
+
+.ratingcomments
+{
+margin-left: 16px;
+margin-right: 16px;
+
+}
