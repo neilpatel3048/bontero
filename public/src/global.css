@@ -1046,3 +1046,11 @@ margin-right: 16px;
 .padding-top{
   padding-top: 45px;
 }
+
+
+
+
+a, u {
+    text-decoration: none;
+    color : white;
+}

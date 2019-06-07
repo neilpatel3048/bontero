@@ -27,7 +27,7 @@ class OrganicProducts extends HTMLElement {
              
         <!-- Back arrow . organic produce header and sort icon-->
          
-        <ion-toolbar>
+        <ion-toolbar class="padding-top">
           <ion-buttons slot="start">
             <ion-icon class="backarrow" ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
           </ion-buttons>
