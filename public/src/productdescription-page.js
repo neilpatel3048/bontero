@@ -58,19 +58,20 @@ class Productdesc extends HTMLElement {
         <!-- Content end here-->
              </div>      
             
-          <!-- impact footprint description--> 
-            <ion-toolbar>
-              <ion-buttons slot="start" class="btndesc">
-                Description
-              </ion-buttons>
-                <center>
-                  <label class="btnfootprint" align="center">Footprint</label>  <!--hereeeeee   ion segments-->
-                
-                </center>
-              <ion-buttons slot="end" class="btnproducer">
-               Producer
-              </ion-buttons>
-           </ion-toolbar>
+             <ion-segment>
+             <ion-segment-button color="#ffffff">
+                <ion-label>Description</ion-label>
+             </ion-segment-button>
+   
+             <ion-segment-button color="#ffffff">
+                 <ion-label>Footprint</ion-label>
+             </ion-segment-button>
+   
+             <ion-segment-button >
+             <ion-label>Producer</ion-label>
+             </ion-segment-button>
+           
+            </ion-segment>
         
               
               <!-- description--> 
