@@ -40,7 +40,26 @@ class FootprintPage extends HTMLElement {
                 </center>
         <!-- Content end here-->
              </div>      
-            
+
+             
+             <ion-segment>
+          <a href="/#/productdescription/:id"><ion-segment-button color="#ffffff">
+            <ion-label>Description</ion-label>
+          </ion-segment-button>
+          </a>
+
+        <ion-segment-button color="#ffffff">
+              <ion-label>Footprint</ion-label>
+          </ion-segment-button>
+          </a>
+         
+          <a href="/#/productimpact/:id">  <ion-segment-button >
+          <ion-label>Producer</ion-label>
+      </ion-segment-button>
+      </ion-segment>  </a>
+
+
+
           <!-- impact footprint description--> 
             <ion-toolbar>
               <ion-buttons slot="start" class="btndesc">
@@ -55,6 +74,7 @@ class FootprintPage extends HTMLElement {
               </ion-buttons>
            </ion-toolbar>
         
+           
               
               <!-- description--> 
             <div class="desccontent">
