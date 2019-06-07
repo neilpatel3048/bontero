@@ -61,18 +61,7 @@ class FootprintPage extends HTMLElement {
 
 
           <!-- impact footprint description--> 
-            <ion-toolbar>
-              <ion-buttons slot="start" class="btndesc">
-                Description
-              </ion-buttons>
-                <center>
-                  <label class="btnfootprint" align="center">Footprint</label>  <!--hereeeeee   ion segments-->
-                
-                </center>
-              <ion-buttons slot="end" class="btnproducer">
-               Producer
-              </ion-buttons>
-           </ion-toolbar>
+      
         
            
               
