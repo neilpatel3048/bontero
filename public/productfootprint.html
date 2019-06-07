@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./src/global.css">
+    <!-- import the webpage's javascript file -->
+    <script src="./home-page.js"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+  </head>  
+<body>
+      <ion-app>
+        
+        
+  <ion-menu side="start" menu-id="first">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Start Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    </ion-menu>
+        
+        
+        
+        
+        <!--Coding starts here-->
+  <div class="ion-page" main>
+    <ion-header>
+  <ion-toolbar color="primary">
+        
+          <!--Icon on left of bontero-->
+        <ion-buttons slot="start">
+          <ion-button>
+            <ion-icon name="menu" color="tertiary"></ion-icon>
+          </ion-button>
+          
+          <ion-button>
+            <ion-icon slot="icon-only" name="search" color="tertiary"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+
+        <!--Icon on right of bontero-->
+
+        <ion-title><img class="logosize" src="./assets/bonterologo.svg" alt="Bontero"></ion-title>
+
+           <!--Icon on left of bontero-->    
+
+        <ion-buttons slot="end">
+
+          <ion-button color="tertiary">
+            <ion-icon slot="icon-only" name="contact"></ion-icon>
+          </ion-button>
+
+          <ion-button color="tertiary" href="cart.html">
+            <ion-icon name="cart"></ion-icon>
+          </ion-button>
+          
+        </ion-buttons>
+    </ion-toolbar>
+    </ion-header>
+    
+    <!---body starts here-->
+    <ion-content >
+      
+       
+  <!-- Back arrow . organic produce header and sort icon-->
+   
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon class="backarrow" ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+    </ion-buttons>
+    <ion-title class="orgheader">Avocado</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon class="sort" ios="ios-funnel" md="md-funnel"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+      
+      
+      
+      <!-- Content starts here-->
+      <div class="productdesc">
+
+        <ion-card class="imagesizepd">
+          <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
+        </ion-card>
+          <div class= "pdproductdetail">
+
+        
+            <h1 class="pname"> Avocado</h1>
+            <center>
+            <p class="pdproductname"><span style="text-decoration: line-through;">  2,00&euro; &nbsp;</span> 1,25&euro; 37% OFF</p>
+            <p>&nbsp;</p>
+              </center>
+          </div>
+        <center>
+        <ion-button class="btn_quantity" color="success">-</ion-button>
+          <input type="text" name="quantity" value="1" align="center">
+          <ion-button class="btn_quantity" color="success">+</ion-button>
+          <ion-button class="btn_add" color="success">ADD</ion-button>
+      
+          </center>
+  <!-- Content end here-->
+       </div>      
+      
+    <!-- impact footprint description--> 
+      <ion-toolbar>
+        <ion-buttons slot="start" class="btndesc">
+          Description
+        </ion-buttons>
+          <center>
+            <label class="btnfootprint" align="center">Footprint</label>  <!--hereeeeee   ion segments-->
+          
+          </center>
+        <ion-buttons slot="end" class="btnproducer">
+         Producer
+        </ion-buttons>
+     </ion-toolbar>
+  
+        
+        <!-- description--> 
+      <p class="desccontent">
+            <ion-list>
+                    <ion-item>
+                            <ion-icon src="../assets/productspage/feather.svg"></ion-icon>
+                      <ion-label>Organic and Additive Free</ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-icon src="../assets/productspage/nopesticides.svg"></ion-icon>
+                      <ion-label>No pesticides have been used</ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-icon src="../assets/productspage/noplastic.svg"></ion-icon>
+                      <ion-label>No plastic involved in the process</ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-icon src="../assets/productspage/Vector.svg"></ion-icon>
+                      <ion-label>120 liters of water per Avocado
+                            <ion-progress-bar value="0.8" color="secondary"></ion-progress-bar>
+                      </ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-icon src="../assets/productspage/Group.svg"></ion-icon>
+                      <ion-label>500 kilometers from your city
+                            <ion-progress-bar value="1" color="secondary"></ion-progress-bar>
+                      </ion-label>
+                    </ion-item>
+                  </ion-list>
+        <br><br>
+  
+      
+       <ion-footer color="primary"> 
+         <p>
+        Contact us <br> Privacy policy <br> Accessibility <br> Terms and use <br>2019 BONTERO. All rights reserved.
+      </p>
+      </ion-footer>
+    </ion-content>
+           
+     
+   </div>
+</ion-app>
+  
+     
+          
+ 
+       
+  
+
+  
+  </body>
+
+</html>
+
+
+
