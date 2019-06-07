@@ -39,7 +39,7 @@ class SideMenu extends HTMLElement {
 		}
 		  
 			.sidenav .closebtn {
-			position: absolute;
+		 	position: absolute;
 			top: 0;
 			right: 25px;
 			font-size: 36px;
@@ -56,7 +56,7 @@ class SideMenu extends HTMLElement {
 			${css}  
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="menuToggle()">&times;</a>
-  <a href="#">About</a>
+  <a  onclick="menuToggle()" href="#/organicproducts">Shop</a>
   <a href="#">Services</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a>

@@ -44,11 +44,11 @@ class OrganicProducts extends HTMLElement {
             <ion-row>
               <ion-col size="6">
                 <ion-card class="cardpadding">
-              <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
+                <a href="/#/productdescription/:id"> <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
               <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Avocado</ion-card-title>
-              </ion-card-header>
+              </ion-card-header></a>
                  
               <ion-card-content class="cancelprice">
                 € 02.10       

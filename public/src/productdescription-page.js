@@ -67,9 +67,10 @@ class Productdesc extends HTMLElement {
                  <ion-label>Footprint</ion-label>
              </ion-segment-button>
    
-             <ion-segment-button >
+             <a href="/#/productimpact/:id"><ion-segment-button >
              <ion-label>Producer</ion-label>
-             </ion-segment-button>
+          </ion-segment-button>
+        </a>  
            
             </ion-segment>
         

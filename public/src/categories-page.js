@@ -27,10 +27,10 @@ class Categoriespage extends HTMLElement {
        
        <!-- These are all the cards within the page-->
        <ion-card>
-            <img src="./assets/categoriespage/organicproduce.jpg" />
+       <a href="/#/organicproducts"> <img src="./assets/categoriespage/organicproduce.jpg" />
             <ion-card-header>
               <ion-card-title>Organic Produce</ion-card-title>
-            </ion-card-header>
+            </ion-card-header></a>
         </ion-card>
        
        
