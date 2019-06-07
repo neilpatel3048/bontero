@@ -56,19 +56,20 @@ class ProductImpact extends HTMLElement {
               </div>      
              
            <!-- impact footprint description--> 
-              <ion-segment>
-          <a href="/#/productdescription/:id"><ion-segment-button color="#ffffff">
-            <ion-label>Description</ion-label>
-          </ion-segment-button>
-          </a>
-        <ion-segment-button color="#ffffff">
-              <ion-label>Footprint</ion-label>
-          </ion-segment-button>
+                          <ion-segment>
+                      <a href="/#/productdescription/:id"><ion-segment-button color="#ffffff">
+                        <ion-label>Description</ion-label>
+                      </ion-segment-button>
+                      </a>
 
-          <ion-segment-button >
-          <ion-label>Producer</ion-label>
-      </ion-segment-button>
-      </ion-segment>  
+                    <a href="/#/productfootprint/:id"> <ion-segment-button color="#ffffff">
+                          <ion-label>Footprint</ion-label>
+                      </ion-segment-button></a>
+
+                      <ion-segment-button >
+                      <ion-label>Producer</ion-label>
+                  </ion-segment-button>
+                  </ion-segment>  
          
                
                <!-- description--> 

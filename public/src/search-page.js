@@ -12,8 +12,8 @@ class SearchPage extends HTMLElement {
                   
                         <ion-buttons  slot="end" >
             
-                                <ion-button  color="tertiary" href="/home">
-                                        <ion-icon name="close"></ion-icon>
+                              <a href="/#">  <ion-button  color="tertiary" >
+                                        <ion-icon name="close"></ion-icon></a>
                          </ion-button>
                         </ion-buttons>
       
@@ -27,7 +27,7 @@ class SearchPage extends HTMLElement {
             </div>
                
             <div class="searchtextdiv">
-                <a class="searchtext" href="organicproducts.html">Popular Product</a>
+                <a class="searchtext" href="/#/organicproducts/">Popular Product</a>
                 <br>
                 <br>
                 <br>
