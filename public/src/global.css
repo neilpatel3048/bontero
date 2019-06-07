@@ -186,8 +186,19 @@ ion-card-content
 
 
 
+a, u {
+  text-decoration: none;
+  
+}
 
-
+a:visited
+{
+  color : White;
+}
+.hey {
+  color:maroon;
+ 
+  }
 
 
 
