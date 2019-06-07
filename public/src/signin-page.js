@@ -59,7 +59,7 @@ class SignIn extends HTMLElement {
         </p>
     </div>
     <ion-button padding expand="block" color="secondary">Checkout as guest</ion-button>
-
+        <footer-element></footer-element>
 </ion-content>`;
 	}
 }
