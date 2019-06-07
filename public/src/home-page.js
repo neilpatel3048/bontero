@@ -22,7 +22,7 @@ class HomePage extends HTMLElement {
            <div class="container">
        <img src="./assets/homepage/freshproduce.jpg">
        <div class="text-block">
-       <a href="/categories"><h4>Shop our products</h4></a>
+       <a href="/#/categories"><h4>Shop our products</h4></a>
          <ion-icon name="arrow-dropright"></ion-icon>
        </div>
      </div>
@@ -30,7 +30,7 @@ class HomePage extends HTMLElement {
                <div class="container">
                  <img src="./assets/homepage/volunteer.jpg">
                  <div class="text-block"> 
-                 <a href="/events"> <h4>Volunteer at local event</h4></a>
+                 <a href="/#/events"> <h4>Volunteer at local event</h4></a>
        </div>
      </div>
            
