@@ -57,7 +57,7 @@ class CartPage extends HTMLElement {
            <ion-row>
               <ion-col class="col1cart" size="3">
                  <ion-card class= "imagesizecart" >
-                   <img src="./assets/productspage/Beet.jpg" />
+                   <img src="./assets/productspage/beet.jpg">
                   </ion-card>
                   
               </ion-col>
@@ -82,20 +82,18 @@ class CartPage extends HTMLElement {
       </div>
 
  
-    <ion-grid class="promo">
-        
-           <ion-col size="2" >
+   
+      <ion-grid>
+        <ion-row>
+          <ion-col>
             <input class="promocode" type="text" name="quantity" value="1" align="center">
           </ion-col>
-
-
-          <ion-col size="5" >
-            <ion-button class="btnpromo" color="secondary" >Apply</ion-button>      
+          <ion-col>
+            <ion-button class="btnpromo" color="secondary" >Apply</ion-button> 
           </ion-col>
-
-
-    </ion-grid>
-
+         
+        </ion-row>
+      </ion-grid> 
 
      
     <ion-toolbar >
