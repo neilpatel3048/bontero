@@ -22,7 +22,7 @@ class Categoriespage extends HTMLElement {
          
          <!-- This class is for all the page, it is only used to create a space
               between the image and the first content --> 
-     <div class="container1">
+     <div class="container2">
        
        
        <!-- These are all the cards within the page-->
