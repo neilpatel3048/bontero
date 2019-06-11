@@ -73,10 +73,14 @@ class ProductImpact extends HTMLElement {
          
                
                <!-- description--> 
-             <p class="desccontent">
-                   La Nucia Farms is a family-owned business based in outskirts of Malaga. They are committed to producing the finest possible fresh vegetables and fruits which has been grown using the most sustainable methods. 
-                   They are committed to operate in the most environmentally-friendly way possible. Their approach so far has produced fruits and vegetables that are fresher, tastier, and more nutritious!
-             </p>
+              <img src="./assets/farmer.jpg"> 
+             <div class="producercontent">
+                   <p class="producertext"> La Nucia Farms is a family-owned business based in outskirts of Malaga. They are committed to producing the finest possible fresh vegetables and fruits which has been grown using the most sustainable and environmentally-friendly way possible.</p> 
+                
+                   <p class="producertext"> Their approach so far has produced fruits and vegetables that are fresher, tastier, and more nutritious!</p>
+             </div>
+             
+             <img class="farmerimage" src="./assets/farmaward.svg">
 
              <footer-element></footer-element>
 

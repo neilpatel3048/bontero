@@ -572,22 +572,25 @@ line-height: 22px;
 text-align: center;
 }
 
-.desccontent
+.producercontent
 {
-  
-margin : 16px;
-  
+text-align: left;  
+padding: 8px;
 font-family: Avenir;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 22px;
 /* or 137% */
-
 color: #3D3D3D;
-
 }
 
+.producertext{
+  text-align: left;
+  padding-left: 16px;
+  padding-right: 16px;
+  
+}
 
   
   
@@ -1068,4 +1071,13 @@ margin-right: 16px;
 a, u {
     text-decoration: none;
     color : white;
+}
+
+.farmerimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+
 }
