@@ -44,7 +44,7 @@ class OrganicProducts extends HTMLElement {
             <ion-row>
               <ion-col size="6">
                 <ion-card class="cardpadding">
-                <a href="/#/productdescription/:id"> <img class= "imagesize" src="./assets/productspage/avocado.jpg" />
+                <a href="/#/productdescription/:id"> <img class= "imagesize" src="./assets/productspage/avocado.jpg" /></a>
               <ion-card-header class="productname">
             
                 <ion-card-title class="smallfont1">Avocado</ion-card-title>
@@ -56,7 +56,7 @@ class OrganicProducts extends HTMLElement {
               <ion-card-content class="lastprice">
                 € 1.50       
               </ion-card-content>
-                
+              
           
                   
             </ion-card>
