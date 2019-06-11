@@ -22,15 +22,21 @@ class EventsPage extends HTMLElement {
                     
                   <!-- This class is for all the page, it is only used to create a space
                        between the image and the first content --> 
-              <div class="container1">
-                
-                <div class="eventstext">
-                    <p class="events">
-                      Events are currently only open in Barcelona. Stay tuned for opening cities!   
-                    </p>
-                </div>
-                
-                
+                       
+                  <div class="eventstext">
+                       <p class="events">
+                         Events are currently only open in Barcelona. Stay tuned for opening cities!   
+                       </p>
+                   </div>
+              
+              
+                       <div class="container1">
+                       
+                    <div class="eventstext">
+                       <p class="events">
+                         Events are currently only open in Barcelona. Stay tuned for opening cities!   
+                       </p>
+                   </div>
                 
                 <h1 class= "banner">
                   Events Coming Up

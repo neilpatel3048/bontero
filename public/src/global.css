@@ -149,8 +149,8 @@ ion-card-header
 
 ion-card-content
 {
+  padding-left: 8px;
 
- padding-left :0px;
 }
 
 .place
@@ -275,9 +275,9 @@ ion-title {
   }
   /* here*/
   .container1{
-    margin-top: 250px;
     margin-left: 16px;
     margin-right: 16px;
+    margin-top: 90px;
   }
   
   /*.imagesize{
@@ -316,8 +316,8 @@ ion-title {
   
   .heart-button {
     border: none;
-    color: #F57D3F;
-    padding: 16px 16px;
+    color: #3D3D3D;
+    padding: 16px ;
     text-align: center;
     font-size: 16px;
     opacity: 0.3;
@@ -325,6 +325,9 @@ ion-title {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    background-color: #ffffff;
+    float: right;
+    padding-right: 64px;
   }
   
  
@@ -336,6 +339,10 @@ ion-title {
     color: #F57D3F;
   } 
   
+  .heartandsocial{
+    display: inline-block;
+    align-content: center;
+  }
   .events{
     background-color: #FFDD80;
     font-family:Avenir;
@@ -344,13 +351,15 @@ ion-title {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    height: 56px;
   }
   
   .eventstext{
     background-color: #FFDD80;
-    margin-top: 60px;
+    margin-top: 0px;
     margin-left: -16px;
     margin-right: -16px;
+    padding-top: 8px;
   }
 /* Gael's code ends here 14/05/2019 */
   p {
@@ -597,6 +606,8 @@ color: #3D3D3D;
   h4{
   font-family:Avenir LT W01 45 Book;
   font-weight:normal;
+  margin-left: 8px;
+
 
   }
   
