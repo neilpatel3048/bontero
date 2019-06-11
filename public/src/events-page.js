@@ -46,11 +46,12 @@ class EventsPage extends HTMLElement {
                 
                 <!-- These are all the cards within the page-->
                    <ion-card>
-                     <ion-img src="./assets/eventspage/cleaningbeach.jpeg"></ion-img>
+                   <a href="/#/events/:description/:id"><ion-img src="./assets/eventspage/cleaningbeach.jpeg"></ion-img>
                      <ion-card-header>
                           <ion-card-subtitle>May 10, Friday 10:00 at Barcelonneta</ion-card-subtitle> 
                            <ion-card-title>Cleaning Beach Day</ion-card-title>
                      </ion-card-header>
+                     </a>
                       <ion-card-content>
                          10+ people attending
                   

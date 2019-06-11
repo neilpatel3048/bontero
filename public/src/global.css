@@ -903,14 +903,14 @@ margin: 0px;
 
 .promocode
 {
-  margin-top : 1.5em;
+  margin-top : 1.0em;
   margin-left: 1em;
-  margin-right: 1em;
-  width :200px;
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
-  border: 2px solid #000000;
+  margin-right: 0.5em;
+  width :50vw;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #000000;
 }
 
 .col2promo
@@ -921,6 +921,7 @@ margin: 0px;
 
 .btnpromo
 {
+  margin-top : 1.0em;
   height:50px;
   width : 120px;
 }
