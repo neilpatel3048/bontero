@@ -19,25 +19,26 @@ class HomePage extends HTMLElement {
            </p>
            </div>
            
+           <a class="hey" href="/#/categories">
            <div class="container">
        <img src="./assets/homepage/freshproduce.jpg">
        <div class="text-block">
-       <a href="/#/categories"><h4>Shop our products</h4></a>
-         <ion-icon name="arrow-dropright"></ion-icon>
+       <h4>Shop our products<ion-icon name="arrow-dropright"></ion-icon></h4>
        </div>
-     </div>
+     </div></a>
            
+     <a href="/#/events">
                <div class="container">
                  <img src="./assets/homepage/volunteer.jpg">
                  <div class="text-block"> 
-                 <a href="/#/events"> <h4>Volunteer at local event</h4></a>
+                  <h4>Volunteer at local event<ion-icon name="arrow-dropright"></ion-icon></h4>
        </div>
-     </div>
+     </div></a>
            
                  <div class="container">
                    <img src="./assets/homepage/blog_recycle.jpg">
                    <div class="text-block"> 
-         <h4>Read our blog</h4>
+         <h4>Read our blog<ion-icon name="arrow-dropright"></ion-icon></h4>
        </div>
      </div>
            
@@ -50,7 +51,7 @@ class HomePage extends HTMLElement {
            <div class="container">
              <img src="./assets/homepage/seed.jpg" style="width:100%;">
              <div class="text-block"> 
-         <h4>Our mission and vision</h4>
+         <h4>Our mission and vision<ion-icon name="arrow-dropright"></ion-icon></h4>
        </div>
      </div>
            

@@ -22,7 +22,7 @@ class Categoriespage extends HTMLElement {
          
          <!-- This class is for all the page, it is only used to create a space
               between the image and the first content --> 
-     <div class="container1">
+     <div class="container2">
        
        
        <!-- These are all the cards within the page-->
@@ -60,9 +60,9 @@ class Categoriespage extends HTMLElement {
        
        
       <!-- Here starts the part for the products in the category page--> 
-       <h1>
+       <h2>
          Newest Arrivals
-       </h1>
+       </h2>
        
         <ion-grid>
           <ion-row>
@@ -82,7 +82,7 @@ class Categoriespage extends HTMLElement {
           <ion-card class="cardpadding">
             <img class="imagesize" src="./assets/productspage/cottonproducebag.jpg" />
                <ion-card-header class="productname">  
-                <ion-card-title>Coton Bag</ion-card-title>
+                <ion-card-title>Cotton Bag</ion-card-title>
               </ion-card-header>       
                   <ion-card-content class="cancelprice">
                       € 02.10 
@@ -96,9 +96,9 @@ class Categoriespage extends HTMLElement {
        
        
        
-       <h1>
+       <h2>
          Our Featured Products
-       </h1>
+       </h2>
          <ion-grid>
           <ion-row>
             <ion-col size="6">
@@ -117,7 +117,7 @@ class Categoriespage extends HTMLElement {
           <ion-card class="cardpadding">
             <img class="imagesize" src="./assets/productspage/cottonproducebag.jpg" />
                <ion-card-header class="productname">  
-                <ion-card-title>Coton Bag</ion-card-title>
+                <ion-card-title>Cotton Bag</ion-card-title>
               </ion-card-header>       
                   <ion-card-content class="cancelprice">
                       € 02.10 

@@ -27,11 +27,11 @@ class SearchPage extends HTMLElement {
             </div>
                
             <div class="searchtextdiv">
-                <a class="searchtext" href="/#/organicproducts/">Popular Product</a>
+                <a class="searchtext" href="/#/organicproducts/">Popular Products</a>
                 <br>
                 <br>
                 <br>
-                <a class="searchtext" href="productdescription.html"> Avacado</a>
+                <a class="searchtext" href="productdescription.html"> Avocado</a>
                 <br>
                 <br>
                 <br>
