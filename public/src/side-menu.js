@@ -57,9 +57,9 @@ class SideMenu extends HTMLElement {
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="menuToggle()">&times;</a>
   <a  onclick="menuToggle()" href="#/organicproducts">Shop</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="/categories">Categories</a>
+  <a href="/events">Events</a>
+  <a href="#">About Us</a>
 </div>
 
 
