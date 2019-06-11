@@ -32,10 +32,11 @@ class FootprintPage extends HTMLElement {
                     </center>
                 </div>
               <center>
-              <ion-button class="btn_quantity" color="success">-</ion-button>
-                <input type="text" name="quantity" value="1" align="center">
-                <ion-button class="btn_quantity" color="success">+</ion-button>
-                <ion-button class="btn_add" color="success">ADD</ion-button>
+              <ion-button class="btn_quantity" id="btn-remove" color="success">-</ion-button>
+                <input type="text" name="quantity" id="product_quantity" value="1" align="center">
+                <ion-button class="btn_quantity" id="btn-add" color="success">+</ion-button>
+                <ion-button class="btn_add" color="success" (click)="presentAlert()">ADD</ion-button>
+            
             
                 </center>
         <!-- Content end here-->
@@ -98,6 +99,30 @@ class FootprintPage extends HTMLElement {
               <footer-element></footer-element>
           </ion-content>
         `;
+
+        const inputQuantity = document.querySelector('#product_quantity');
+
+        const addButton = document.querySelector('#btn-add');
+    
+        const removeButton = document.querySelector('#btn-remove');
+    
+        addButton.addEventListener('click', function() {
+        
+        let val = parseInt(inputQuantity.value);
+        
+        inputQuantity.value = val+1
+
+        
+            });
+        
+        
+            removeButton.addEventListener('click', function() {
+        
+        let val = parseInt(inputQuantity.value);
+        
+        inputQuantity.value = val-1
+        
+            });
 	}
 }
 
