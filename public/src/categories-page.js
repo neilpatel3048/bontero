@@ -24,39 +24,8 @@ class Categoriespage extends HTMLElement {
               between the image and the first content --> 
      <div class="container2">
        
+       <span id="categories-api"></span>
        
-       <!-- These are all the cards within the page-->
-       <ion-card>
-       <a href="/#/organicproducts"> <img src="./assets/categoriespage/organicproduce.jpg" />
-            <ion-card-header>
-              <ion-card-title>Organic Produce</ion-card-title>
-            </ion-card-header></a>
-        </ion-card>
-       
-       
-       <ion-card>
-            <img src="./assets/categoriespage/drygoods.jpg" />
-            <ion-card-header>
-              <ion-card-title>Dry Goods</ion-card-title>
-            </ion-card-header>
-        </ion-card>
-       
-       
-        <ion-card>
-            <img src="./assets/categoriespage/drinksanddairy.jpg" />
-            <ion-card-header>
-              <ion-card-title>Drinks and Dairy</ion-card-title>
-            </ion-card-header>
-        </ion-card>
-       
-       
-       <ion-card>
-            <img src="./assets/categoriespage/homeandbeauty.jpg" />
-            <ion-card-header>
-              <ion-card-title>Home and Beauty</ion-card-title>
-            </ion-card-header>
-        </ion-card>
-      <!--  End of the categories diferent cards-->
        
        
       <!-- Here starts the part for the products in the category page--> 
@@ -100,7 +69,7 @@ class Categoriespage extends HTMLElement {
          Our Featured Products
        </h2>
          <ion-grid>
-          <ion-row>
+          <ion-row id="featured-products">
             <ion-col size="6">
               <ion-card class="cardpadding">
                 <img class= "imagesize" src="./assets/productspage/almonds.jpg" />
@@ -131,7 +100,30 @@ class Categoriespage extends HTMLElement {
       </div> 
       <footer-element></footer-element>
         </ion-content>`;
-	}
-}
+
+        function template(data){
+          return `
+          <a href="/#/organicproducts"> <img src="../assets/categoriespage/${data.category_name}.jpg" />
+               <ion-card-header>
+                 <ion-card-title>${data.category_name}</ion-card-title>
+               </ion-card-header></a>
+         `
+        }
+
+        const catCategories = document.querySelector('#categories-api');
+
+        const categories = fetch('http://localhost:5001/bontero-50f6a/us-central1/getCategories')
+          .then(response => response.json())
+          .then(data => {
+            
+            data.forEach((item) => { 
+              console.log(item)
+              const card = document.createElement('ion-card');
+              card.innerHTML = template(item);
+              catCategories.appendChild(card , catCategories.nextSibling);
+            });
+        });
+      }
+    }
 
 customElements.define('categories-page', Categoriespage);
