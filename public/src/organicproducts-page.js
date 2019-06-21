@@ -17,15 +17,15 @@ class OrganicProducts extends HTMLElement {
               
               
               
-              <!--Coding starts here-->
+            
 
           
-          <!---body starts here-->
+         
           
           <ion-content >
             
              
-        <!-- Back arrow . organic produce header and sort icon-->
+       
          
         <ion-toolbar class="padding-top">
           <ion-buttons slot="start">
@@ -38,187 +38,11 @@ class OrganicProducts extends HTMLElement {
         </ion-toolbar>
             
            
-          <!-------------Grid starts here-------------------------------------------------------------------------------------------------------->
            <ion-grid>
               
-            <ion-row>
-              <ion-col size="6">
-                <ion-card class="cardpadding">
-                <a href="/#/productdescription/:id"> <img class= "imagesize" src="./assets/productspage/avocado.jpg" /></a>
-              <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Avocado</ion-card-title>
-              </ion-card-header></a>
-                 
-              <ion-card-content class="cancelprice">
-                € 02.10       
-              </ion-card-content>
-              <ion-card-content class="lastprice">
-                € 1.50       
-              </ion-card-content>
-              
-          
-                  
-            </ion-card>
-              </ion-col>
-              
-               <ion-col size="6">
-                <ion-card class="cardpadding">
-              <img class="imagesize" src="./assets/productspage/greenpepper.jpg" />
-             <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Pepper</ion-card-title>
-              </ion-card-header>
-                 
-              <ion-card-content class="cancelprice">
-                € 3.10 
-              </ion-card-content>
-                <ion-card-content class="lastprice">
-                € 2.10       
-               </ion-card-content>
-            
-                  </ion-card>
-              </ion-col>
-           
-            </ion-row>
-             
-            </ion-grid> 
-         
-            <ion-grid>
-              
-            <ion-row>
-              <ion-col size="6">
-                <ion-card class="cardpadding">
-              <img class= "imagesize" src="./assets/productspage/beet.jpg" />
-              
-                  <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Beet</ion-card-title>
-              </ion-card-header>
-                 
-              <ion-card-content class="cancelprice">
-                € 4.10 
-              </ion-card-content>
-                <ion-card-content class="lastprice">
-                € 3.75       
-               </ion-card-content>
-                
-          
-            </ion-card>
-              </ion-col>
-              
-             
-               <ion-col size="6">
-                <ion-card class="cardpadding">
-              <img class="imagesize" src="./assets/productspage/kale.jpg" />
-             <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Kale</ion-card-title>
-              </ion-card-header>
-                 
-              <ion-card-content class="cancelprice">
-                € 02.10 
-              </ion-card-content>
-              <ion-card-content class="lastprice">
-                € 1.20       
-               </ion-card-content>
-                
-            </ion-card>
-              </ion-col>
-              
-              
-            </ion-row>
-             
-            </ion-grid> 
-            
-            <!---------------------------------------------------------------->
-      
-            <ion-grid>
-              
-            <ion-row>
-              <ion-col size="6">
-                <ion-card class="cardpadding">
-              <img class= "imagesize" src="./assets/productspage/pear.jpg" />
-              <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Pear</ion-card-title>
-              </ion-card-header>
-                 
-              <ion-card-content class="cancelprice">
-                € 9.23     
-              </ion-card-content>
-               <ion-card-content class="lastprice">
-                € 8.20       
-               </ion-card-content>
-                
-          
-                  
-            </ion-card>
-              </ion-col>
-              
-               <ion-col size="6">
-                <ion-card class="cardpadding">
-              <img class="imagesize" src="./assets/productspage/orange.jpg" />
-             <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Orange</ion-card-title>
-              </ion-card-header>
-                 
-              <ion-card-content class="cancelprice">
-                € 5.20
-              </ion-card-content>
-                <ion-card-content class="lastprice">
-                € 4.10       
-               </ion-card-content>
-                  
-            </ion-card>
-              </ion-col>
-           
-            </ion-row>
-             
-            </ion-grid> 
-         
-            <ion-grid>
-              
-            <ion-row>
-              <ion-col size="6">
-                <ion-card class="cardpadding">
-              <img class= "imagesize" src="./assets/productspage/apple.jpg" />
-              <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Apple</ion-card-title>
-              </ion-card-header>
-                 
-              <ion-card-content class="cancelprice">
-                € 6.00 
-              </ion-card-content>
-                
-                <ion-card-content class="lastprice">
-                € 5.00       
-               </ion-card-content>
-          
-            </ion-card>
-              </ion-col>
-              
-             
-               <ion-col size="6">
-                <ion-card class="cardpadding">
-              <img class="imagesize" src="./assets/productspage/cucumber.jpg" />
-             <ion-card-header class="productname">
-            
-                <ion-card-title class="smallfont1">Cucumber</ion-card-title>
-              </ion-card-header>
-                 
-              <ion-card-content class="cancelprice">
-                € 7.80 
-              </ion-card-content>
-              <ion-card-content class="lastprice">
-                € 6.00       
-               </ion-card-content>
-                  
-            </ion-card>
-              </ion-col>
-              
+            <ion-row id="featured-products">
+        
+
               
             </ion-row>
              
@@ -226,9 +50,39 @@ class OrganicProducts extends HTMLElement {
             
              <footer-element></footer-element>
            </ion-content>
+           `;
 
-          `;
-	}
+           function template (data){
+            return  `
+            <ion-card class="cardpadding">
+            <img class="imagesize" src="./assets/productspage/${data.product_name}.jpg" />
+            <ion-card-header class="productname"> 
+            <ion-card-title>${data.product_name}</ion-card-title>
+            </ion-card-header> 
+            <ion-card-content class="cancelprice">
+            € ${data.product_price}
+            </ion-card-content>
+            <ion-card-content class="lastprice">
+                € ${data.product_price}  
+               </ion-card-content>
+            </ion-card>
+            `
+            }
+            
+            const fPContainers = document.querySelector('#featured-products');
+
+            const organicProducts = fetch('http://localhost:5001/bontero-50f6a/us-central1/getProducts')
+            .then(response => response.json())
+            .then(data => {
+            data.forEach((item) => {
+            const card = document.createElement('ion-col');
+            card.setAttribute('size', 6);
+            card.innerHTML = template(item);
+            fPContainers.appendChild(card , fPContainers.nextSibling)
+           
+            });
+            });
+    }
 }
 
 customElements.define('organicproducts-page', OrganicProducts);
