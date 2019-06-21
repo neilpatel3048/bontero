@@ -55,7 +55,7 @@ class OrganicProducts extends HTMLElement {
            function template (data){
             return  `
             <ion-card class="cardpadding">
-            <img class="imagesize" src="./assets/productspage/${data.product_name}.jpg" />
+            <a href="/#/productdescription/:id"> <img class="imagesize" src="./assets/productspage/${data.product_name}.jpg" />
             <ion-card-header class="productname"> 
             <ion-card-title>${data.product_name}</ion-card-title>
             </ion-card-header> 
